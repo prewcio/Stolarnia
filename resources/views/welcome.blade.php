@@ -8,5 +8,8 @@
         <title>Stolarnia</title>
     </head>
     <body>
+        <navi></navi>
+        <inx></inx>
+        <ftr></ftr>
     </body>
 </html>

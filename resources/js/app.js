@@ -20,6 +20,9 @@ window.Vue = require('vue').default;
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('ftr', require('./components/includes/Footer.vue').default);
+Vue.component('navi', require('./components/includes/Navi.vue').default);
+Vue.component('inx', require('./components/Main.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
