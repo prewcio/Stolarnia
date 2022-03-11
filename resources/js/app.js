@@ -29,6 +29,9 @@ Vue.component('inx4', require('./components/Main4.vue').default);
 Vue.component('inx5', require('./components/Main5.vue').default);
 Vue.component('socials', require('./components/Socials.vue').default);
 
+//Components Global
+Vue.component('lazy_img',require('./components/comps/LazyImage'));
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
