@@ -1,13 +1,24 @@
 <template>
-
+  <footer>
+    <div class="footer">
+      <p>&copy; {{ CurrentYear }} Anmar-Meble S.C Wszelkie prawa zastrzeżone</p>
+    </div>
+  </footer>
 </template>
 
 <script>
 export default {
-    name: "Footer"
-}
+  name: "Footer",
+  data: function () {
+    return {
+      CurrentYear: new Date().getFullYear(),
+    };
+  },
+  mounted() {},
+
+  methods: {},
+};
 </script>
 
 <style scoped>
-
 </style>
