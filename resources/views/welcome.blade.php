@@ -6,11 +6,7 @@
     <body>
         <div id="app">
             <navi></navi>
-            <inx></inx>
-            <inx2></inx2>
-            <inx3></inx3>
-            <inx4></inx4>
-            <inx5></inx5>
+            <mainy></mainy>
             <socials></socials>
             <ftr></ftr>
         </div>
