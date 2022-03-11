@@ -23,6 +23,11 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('ftr', require('./components/includes/Footer.vue').default);
 Vue.component('navi', require('./components/includes/Navi.vue').default);
 Vue.component('inx', require('./components/Main.vue').default);
+Vue.component('inx2', require('./components/Main2.vue').default);
+Vue.component('inx3', require('./components/Main3.vue').default);
+Vue.component('inx4', require('./components/Main4.vue').default);
+Vue.component('inx5', require('./components/Main5.vue').default);
+Vue.component('socials', require('./components/Socials.vue').default);
 
 //Components Global
 Vue.component('lazy_img',require('./components/comps/LazyImage'));

@@ -1,0 +1,187 @@
+.left-con {
+    position: relative;
+}
+.left-desc {
+    position: relative;
+    margin: 140px 0px 0px 120px;
+    width: 46em;
+}
+.left-desc h1 {
+    font-weight: bold;
+    font-size: 3em;
+}
+.left-desc p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.left-con img{
+    position: absolute;
+    background: #fff;
+    opacity: 0.2;
+    width: 100%;
+    height: 700px;
+    background-size: contain;
+}
+.right-con img{
+    background-size: contain;
+    height: 700px;
+    width: 100%;
+}
+.left-con button{
+    padding: 18px 30px;
+    background: transparent;
+    outline: none;
+    border: 2px solid var(--color-gold);
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: var(--color-black);
+}
+.left-con button:hover {
+    transition: 0.5s;
+    color: var(--color-white);
+    background-color: var(--color-gold);
+}
+.products-con {
+    border: 2px solid var(--color-gold);
+    display: flex;
+    justify-content: center;
+    margin: 193px;
+}
+.products-con h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+.products {
+    margin: 10px;
+}
+.product-col{
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.product-img {
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.product-img img {
+    border-radius: 10px;
+}
+.product-desc {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 5px 0px;
+}
+.video-section {
+    position: relative;
+}
+.video video{
+    width: 100%;
+    height: calc(100vw * 9 / 16);
+    max-height: 850px;
+}
+.video-desc {
+    text-align: center;
+    z-index: 999;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--color-white);
+}
+.video-desc h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.video-desc p {
+    margin-top: 10px;
+    width: 34em;
+}
+.contact {
+    background-color: var(--color-gray);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: var(--color-white);
+    margin-top: 50px;
+}
+.img-container {
+    background-image: url(../img/zdj-2.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.socials {
+    position: fixed;
+    top: 50%;
+    left: 5px;
+    transform: translate(0%, -50%);
+}
+.socials i {
+    margin-top: 5px;
+}
+.realizations {
+    
+}
+@media only screen and (max-width: 768px) {
+    .left-con {
+        position: relative;
+    }
+    .left-desc {
+        position: relative;
+        margin: 45px 20px;
+        width: 30em
+    }
+    .left-desc h1 {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    .left-desc p {
+        margin-top: 10px;
+        font-size: 1em;
+    }
+    .left-con img{
+        position: absolute;
+        background: #fff;
+        opacity: 0.2;
+        width: 100%;
+        height: 400px;
+        background-size: contain;
+    }
+    .right-con img{
+        background-size: contain;
+        height: 400px;
+        width: 100%;
+    }
+    .left-con button{
+        padding: 10px 20px;
+        background: transparent;
+        outline: none;
+        border: 2px solid #000;
+        cursor: pointer;
+        font-weight: bold;
+        margin-top: 10px;
+        font-size: 1em;
+    }
+    .video-desc h1 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .video-desc p {
+        font-size: 0.9em;
+        margin-top: 10px;
+        width: 100vw;
+    }
+    .contact {
+        justify-content: center;
+        flex-direction: column;
+        font-size: 13px;
+    }
+}
