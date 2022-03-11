@@ -24,6 +24,9 @@ Vue.component('ftr', require('./components/includes/Footer.vue').default);
 Vue.component('navi', require('./components/includes/Navi.vue').default);
 Vue.component('inx', require('./components/Main.vue').default);
 
+//Components Global
+Vue.component('lazy_img',require('./components/comps/LazyImage'));
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
