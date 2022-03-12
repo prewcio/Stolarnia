@@ -22,11 +22,12 @@ window.Vue = require('vue').default;
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('ftr', require('./components/includes/Footer.vue').default);
 Vue.component('navi', require('./components/includes/Navi.vue').default);
-Vue.component('inx', require('./components/Main.vue').default);
-Vue.component('inx2', require('./components/Main2.vue').default);
-Vue.component('inx3', require('./components/Main3.vue').default);
-Vue.component('inx4', require('./components/Main4.vue').default);
-Vue.component('inx5', require('./components/Main5.vue').default);
+Vue.component('mainy', require('./components/Main.vue').default);
+Vue.component('main_c1', require('./components/MainComp/Main.vue').default);
+Vue.component('main_c2', require('./components/MainComp/Main2.vue').default);
+Vue.component('main_c3', require('./components/MainComp/Main3.vue').default);
+Vue.component('main_c4', require('./components/MainComp/Main4.vue').default);
+Vue.component('main_c5', require('./components/MainComp/Main5.vue').default);
 Vue.component('socials', require('./components/Socials.vue').default);
 
 //Components Global
