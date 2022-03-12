@@ -1,16 +1,13 @@
 <template>
-  <div class="realizations">
-    <h1>Nasze realizacje</h1>
+  <div class="realizations bg-gray-100">
+    <h1>Wykonane realizacje</h1>
     <div class="lines">
-      <span class="line-1"></span>
+      <span class="line-1"></span><br />
       <span class="line-2"></span>
     </div>
-    <p>
-      Oryginalne pomysły i potrzeby klientów oraz nasza pasja tworzą wręcz małe
-      dzieła sztuki. Każdy klient jest wyjątkowy co pozwala nam wciąż się
-      rozwijać i tworzyć nowe rozwiazania.
-    </p>
-    <div class="slider"></div>
+    <div class="slider">
+      <h1>SLIDER</h1>
+    </div>
   </div>
 </template>
 

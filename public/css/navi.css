@@ -1,3 +1,6 @@
+body {
+    background-color: var(--color-white);
+}
 :root {
     --color-gold: #DFBD69;
     --color-black: #000;
@@ -16,7 +19,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
-    background-color: var(--color-white);
 }
 .navigation a {
     text-decoration: none;
@@ -34,7 +36,7 @@
     color: var(--color-black);
 }
 .nav-menu li a:hover{
-    color: var(--color-gray);
+    color: var(--color-gold);
     transition: 0.3s;
 }
 .bar-menu {
@@ -54,13 +56,13 @@
         width: 200px;
     }
     .nav-menu li a{
-        font-size: 1em;
+        font-size: 1.1em;
     }
     .nav-menu {
         background-color: var(--color-white);
         position: absolute;
         left: -100%;
-        top: 4.1rem;
+        top: 4.2rem;
         width: 100%;
         text-align: center;
         transition: 0.3s;
