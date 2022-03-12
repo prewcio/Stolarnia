@@ -1,69 +1,93 @@
 <template>
-  <div class="products-con">
-    <!-- <h1>Nasze Realizacje</h1> -->
-    <div class="products row place-content-center columns-4">
-      <div
-        class="
-          col-lg-3 col-md-6 col-sm-6 col-12
-          product-col
-          shadow-md
-          cursor-pointer
-          hover:shadow-lg
-        "
-      >
-        <div class="product-img">
-          <img src="/img/test.png" alt="" />
+  <div class="bg-gray-100">
+    <div class="container mx-auto py-10">
+      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div
+          class="
+            flex
+            justify-center
+            flex-col
+            text-xl
+            md:text-2xl
+            p-3
+            shadow-md
+            text-center
+            cursor-pointer
+            bg-white
+            product-wd
+          "
+        >
+          <div class="product-img">
+            <img src="/img/test.png" alt="" class="rounded-lg" />
+          </div>
+          <div class="product-desc pt-2">
+            <h2>Meble kuchenne</h2>
+          </div>
         </div>
-        <div class="product-desc">
-          <h2>Meble laboratoryjne</h2>
+        <div
+          class="
+            flex
+            justify-center
+            flex-col
+            text-xl
+            md:text-2xl
+            p-3
+            shadow-md
+            text-center
+            cursor-pointer
+            bg-white
+            product-wd
+          "
+        >
+          <div class="product-img">
+            <img src="/img/test2.png" alt="" class="rounded-lg" />
+          </div>
+          <div class="product-desc pt-2">
+            <h2>Meble laboratoryjne</h2>
+          </div>
         </div>
-      </div>
-      <div
-        class="
-          col-lg-3 col-md-6 col-sm-6 col-12
-          product-col
-          shadow-md
-          cursor-pointer
-          hover:shadow-lg
-        "
-      >
-        <div class="product-img">
-          <img src="/img/test.png" alt="" />
+        <div
+          class="
+            flex
+            justify-center
+            flex-col
+            text-xl
+            md:text-2xl
+            p-3
+            shadow-md
+            text-center
+            cursor-pointer
+            bg-white
+            product-wd
+          "
+        >
+          <div class="product-img">
+            <img src="/img/test3.png" alt="" class="rounded-lg" />
+          </div>
+          <div class="product-desc pt-2">
+            <h2>Meble na wymiar</h2>
+          </div>
         </div>
-        <div class="product-desc">
-          <h2>Meble na wymiar</h2>
-        </div>
-      </div>
-      <div
-        class="
-          col-lg-3 col-md-6 col-sm-6 col-12
-          product-col
-          shadow-md
-          cursor-pointer
-          hover:shadow-lg
-        "
-      >
-        <div class="product-img">
-          <img src="/img/test.png" alt="" />
-        </div>
-        <div class="product-desc">
-          <h2>Standy</h2>
-        </div>
-      </div>
-      <div
-        class="
-          col-lg-3 col-md-6 col-sm-6 col-12
-          product-col
-          shadow-md
-          cursor-pointer
-          hover:shadow-lg
-        "
-      >
-        <div class="product-img">
-          <img src="/img/test.png" alt="" />
-        </div>
-        <div class="product-desc">
-          <h2>Meble kuchenne</h2>
+        <div
+          class="
+            flex
+            justify-center
+            flex-col
+            text-2xl
+            p-3
+            shadow-md
+            text-center
+            cursor-pointer
+            bg-white
+            product-wd
+          "
+        >
+          <div class="product-img">
+            <img src="/img/test4.png" alt="" class="rounded-lg" />
+          </div>
+          <div class="product-desc pt-2">
+            <h2>Różne</h2>
+          </div>
         </div>
       </div>
     </div>

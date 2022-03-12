@@ -5,10 +5,10 @@
     </head>
     <body>
         <div id="app">
-            <navi></navi>
-            <mainy></mainy>
-            <socials></socials>
-            <ftr></ftr>
+                <navi></navi>
+                <mainy></mainy>
+                <socials></socials>
+                <ftr></ftr>
         </div>
         <footer>
             @include('includes/footer')

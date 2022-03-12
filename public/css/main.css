@@ -1,79 +1,53 @@
-.left-con {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.main {
+    background: url(../img/wood2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
+    background-attachment: fixed;
 }
-.left-desc {
-    position: relative;
-    margin: 140px 0px 0px 120px;
-    width: 46em;
-}
-.left-desc h1 {
-    font-weight: bold;
-    font-size: 3em;
-}
-.left-desc p {
-    margin-top: 10px;
-    font-size: 1.2em;
-}
-.left-con img{
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
     position: absolute;
-    background: #fff;
-    opacity: 0.2;
-    width: 100%;
-    height: 700px;
-    background-size: contain;
+    top: 0;
 }
-.right-con img{
-    background-size: contain;
-    height: 700px;
-    width: 100%;
-}
-.left-con button{
-    padding: 18px 30px;
-    background: transparent;
-    outline: none;
-    border: 2px solid var(--color-gold);
-    cursor: pointer;
-    font-weight: bold;
-    margin-top: 10px;
-    font-size: 1.2em;
-    color: var(--color-black);
-}
-.left-con button:hover {
-    transition: 0.5s;
+.main-desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-left: 100px;
+    transform: translate(-50%, -50%);
     color: var(--color-white);
-    background-color: var(--color-gold);
+    width: 100%;
 }
-.products-con {
-    border: 2px solid var(--color-gold);
-    display: flex;
-    justify-content: center;
-    margin: 193px;
-}
-.products-con h1 {
-    text-align: center;
+.main-desc h1 {
+    font-size: 3em;
     font-weight: bold;
-    font-size: 2em;
 }
-.products {
-    margin: 10px;
+.main-desc p {
+    max-width: 36em;
+    font-size: 1.3em;
 }
-.product-col{
-    max-width: 300px;
-    margin: 10px;
-    border-radius: 5px;
+.main-desc button {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1.2em;
+    outline: none;
+    background-color: var(--color-white);
+    border: none;
+    color: var(--color-gold);
+    padding: 10px 20px;
 }
 .product-img {
-    margin: 0 auto;
-    margin-top: 15px;
-}
-.product-img img {
-    border-radius: 10px;
-}
-.product-desc {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 5px 0px;
+    width: 100%;
 }
 .video-section {
     position: relative;
@@ -81,7 +55,7 @@
 .video video{
     width: 100%;
     height: calc(100vw * 9 / 16);
-    max-height: 850px;
+    max-height: 700px;
 }
 .video-desc {
     text-align: center;
@@ -102,15 +76,6 @@
     margin-top: 10px;
     width: 34em;
 }
-.contact {
-    background-color: var(--color-gray);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    color: var(--color-white);
-    margin-top: 50px;
-}
 .img-container {
     background-image: url(../img/zdj-2.jpg);
     width: 100%;
@@ -128,60 +93,112 @@
     margin-top: 5px;
 }
 .realizations {
-    
+    text-align: center;
+}
+.realizations h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+.contact h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.logo-desc {
+    width: 140px;
+}
+.text {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 1.1em;
+}
+.text i {
+    margin-right: 5px;
+    color: var(--color-gold);
+}
+.lines {
+    line-height: 7px;
+}
+.line-1 {
+    width: 100px;
+    height: 2px;
+    background: var(--color-gold);
+    display: inline-block;
+}
+.line-2 {
+    width: 70px;
+    height: 2px;
+    background: var(--color-gold);
+    display: inline-block;
 }
 @media only screen and (max-width: 768px) {
-    .left-con {
-        position: relative;
+    .line-1 {
+        width: 80px;
+        height: 2px;
+        background: var(--color-gold);
+        display: inline-block;
     }
-    .left-desc {
-        position: relative;
-        margin: 45px 20px;
-        width: 30em
+    .line-2 {
+        width: 50px;
+        height: 2px;
+        background: var(--color-gold);
+        display: inline-block;
     }
-    .left-desc h1 {
+    .main {
+        height: 90vh;
+    }
+    .overlay {
+        height: 90vh;
+    }
+    .main-desc {
+        padding-left: 5px;
+        padding-right: 5px;
+        color: var(--color-white);
+        width: 100%;
+        text-align: center;
+    }
+    .main-desc h1 {
+        font-size: 2em;
         font-weight: bold;
-        font-size: 1.5em;
     }
-    .left-desc p {
-        margin-top: 10px;
-        font-size: 1em;
+    .main-desc p {
+        max-width: 36em;
+        font-size: 1.2em;
     }
-    .left-con img{
-        position: absolute;
-        background: #fff;
-        opacity: 0.2;
-        width: 100%;
-        height: 400px;
-        background-size: contain;
-    }
-    .right-con img{
-        background-size: contain;
-        height: 400px;
-        width: 100%;
-    }
-    .left-con button{
-        padding: 10px 20px;
-        background: transparent;
+    .main-desc button {
+        font-weight: 500;
+        font-size: 1.2em;
         outline: none;
-        border: 2px solid #000;
-        cursor: pointer;
-        font-weight: bold;
-        margin-top: 10px;
-        font-size: 1em;
+        background-color: var(--color-white);
+        border: none;
+        color: var(--color-gold);
+        padding: 10px 20px;
     }
     .video-desc h1 {
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: bold;
     }
     .video-desc p {
-        font-size: 0.9em;
+        font-size: 1em;
         margin-top: 10px;
-        width: 100vw;
+        width: 80vw;
+    }
+    .text {
+        margin-top: 2px;
+    }
+    .logo-desc {
+        width: 110px;
     }
     .contact {
         justify-content: center;
         flex-direction: column;
         font-size: 13px;
+    }
+    .map {
+        margin-top: 10px;
+    }
+    .realizations h1 {
+        font-size: 2em;
+        font-weight: bold;
     }
 }

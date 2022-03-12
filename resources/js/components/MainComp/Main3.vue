@@ -2,6 +2,10 @@
   <div class="video-section">
     <div class="video-desc">
       <h1>Zobacz Etapy Pracy</h1>
+      <div class="lines">
+        <span class="line-1"></span><br />
+        <span class="line-2"></span>
+      </div>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias modi
         doloribus nostrum labore quod ducimus, perspiciatis, nam minima
