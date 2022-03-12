@@ -11,9 +11,11 @@
           Firma Anmar-Meble S.C. rozpoczęła swoją działalność w roku 2008.
           Posiadamy wieloletnie doświadczenie w zakresie wykonywania mebli na
           wymiar wg indywidualnych projektów klienta - dbając o detale i
-          najwyższą jakość materiału. Anmar-Meble świadczy usługi stolarskie
-          zarówno dla klientów indywidualnych jak i klientów firmowych na
-          terenie Polski.
+          najwyższą jakość materiału.
+        </p>
+        <p>
+          Anmar-Meble świadczy usługi stolarskie zarówno dla klientów
+          indywidualnych jak i klientów firmowych na terenie Polski.
         </p>
         <button>WIĘCEJ O NAS</button>
       </div>
