@@ -31,7 +31,7 @@ Vue.component('main_c5', require('./components/MainComp/Main5.vue').default);
 Vue.component('socials', require('./components/Socials.vue').default);
 
 //Components Global
-Vue.component('lazy_img',require('./components/comps/LazyImage'));
+Vue.component('lazy_img',require('./components/comps/LazyImage').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

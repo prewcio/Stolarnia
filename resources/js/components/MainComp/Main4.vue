@@ -15,8 +15,15 @@
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from "swiper/swiper-vue";
+import 'swiper/swiper.scss'
+
 export default {
-  name: "Main4",
+    components: {
+        Swiper,
+        SwiperSlide,
+    },
+    name: "Main4",
 };
 </script>
 
