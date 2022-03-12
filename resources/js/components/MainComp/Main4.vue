@@ -9,40 +9,46 @@
     <div class="slider">
       <h1>SLIDER</h1>
         <swiper
-            :slides-per-view="3"
-            :space-between="50"
-            @swiper="onSwiper"
-            @slideChange="onSlideChange"
+            :slidesPerView="3"
+            :spaceBetween="30"
+            :slidesPerGroup="3"
+            :loop="true"
+            :loopFillGroupWithBlank="true"
+            :pagination="{
+                clickable: true,
+            }"
+            :navigation="true"
+            :modules="modules"
+            class="mySwiper"
         >
-            <swiper-slide>Slide 1</swiper-slide>
-            <swiper-slide>Slide 2</swiper-slide>
-            <swiper-slide>Slide 3</swiper-slide>
-            ...
+            <swiper-slide>Slide 1</swiper-slide><swiper-slide>Slide 2</swiper-slide
+        ><swiper-slide>Slide 3</swiper-slide><swiper-slide>Slide 4</swiper-slide
+        ><swiper-slide>Slide 5</swiper-slide><swiper-slide>Slide 6</swiper-slide
+        ><swiper-slide>Slide 7</swiper-slide><swiper-slide>Slide 8</swiper-slide
+        ><swiper-slide>Slide 9</swiper-slide>
         </swiper>
     </div>
   </div>
 </template>
 
 <script>
-import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
-import 'swiper/css/swiper.css'
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from "swiper-vue2";
+
+// Import Swiper styles
+import 'swiper/swiper-bundle.css'
+
+// import required modules
+import { Pagination, Navigation } from "swiper";
 
 export default {
     components: {
         Swiper,
         SwiperSlide,
     },
-    name: "Main4",
     setup() {
-        const onSwiper = (swiper) => {
-            console.log(swiper);
-        };
-        const onSlideChange = () => {
-            console.log('slide change');
-        };
         return {
-            onSwiper,
-            onSlideChange,
+            modules: [Pagination, Navigation],
         };
     },
 };
