@@ -14,6 +14,10 @@
             :slidesPerGroup="3"
             :loop="true"
             :loopFillGroupWithBlank="true"
+            :autoplay="{
+                delay: 500,
+                disableOnInteraction: false,
+            }"
             :pagination="{
                 clickable: true,
             }"
@@ -46,6 +50,7 @@ export default {
         Swiper,
         SwiperSlide,
     },
+    name: "MainC4",
     setup() {
         return {
             modules: [Pagination, Navigation],

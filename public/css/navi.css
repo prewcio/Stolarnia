@@ -35,6 +35,9 @@ body {
     font-size: 1.2em;
     color: var(--color-black);
 }
+.active {
+    color: red !important;
+}
 .nav-menu li a:hover{
     color: var(--color-gold);
     transition: 0.3s;

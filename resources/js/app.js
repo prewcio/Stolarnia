@@ -19,16 +19,22 @@ window.Vue = require('vue').default;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
+//Example
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+
+//Sites
 Vue.component('ftr', require('./components/includes/Footer.vue').default);
 Vue.component('navi', require('./components/includes/Navi.vue').default);
 Vue.component('mainy', require('./components/Main.vue').default);
+Vue.component('socials', require('./components/Socials.vue').default);
+Vue.component('contact', require('./components/Contact').default);
+
+//Local Components
 Vue.component('main_c1', require('./components/MainComp/Main.vue').default);
 Vue.component('main_c2', require('./components/MainComp/Main2.vue').default);
 Vue.component('main_c3', require('./components/MainComp/Main3.vue').default);
 Vue.component('main_c4', require('./components/MainComp/Main4.vue').default);
 Vue.component('main_c5', require('./components/MainComp/Main5.vue').default);
-Vue.component('socials', require('./components/Socials.vue').default);
 
 //Components Global
 Vue.component('lazy_img',require('./components/comps/LazyImage').default);

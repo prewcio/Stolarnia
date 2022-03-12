@@ -22,7 +22,7 @@ class ContactMail extends Mailable
     {
         $this->content = $content;
         $this->subject('Formularz kontaktowy #'.$this->content['id']);
-        $this->from($address = 'noreply@anmar-meble.com', $name = 'NIE ODPOWIADAJ');
+        $this->from($address = 'noreply@anmar-meble.com', $name = 'Formularz Kontaktowy');
     }
 
     /**

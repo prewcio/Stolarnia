@@ -9,7 +9,9 @@
 </template>
 
 <script>
-
+export default {
+    name: "MainMain"
+}
 </script>
 
 <style scoped>
