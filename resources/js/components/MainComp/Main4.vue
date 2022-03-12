@@ -1,5 +1,5 @@
 <template>
-  <div class="realizations bg-gray-100">
+  <div class="realizations bg-gray-100 py-6 px-6">
     <h1>Wykonane realizacje</h1>
     <div class="lines">
       <span class="line-1"></span><br />
@@ -7,26 +7,245 @@
     </div>
 
     <div class="slider">
-      <h1>SLIDER</h1>
-        <swiper
-            :slidesPerView="3"
-            :spaceBetween="30"
-            :slidesPerGroup="3"
-            :loop="true"
-            :loopFillGroupWithBlank="true"
-            :pagination="{
-                clickable: true,
-            }"
-            :navigation="true"
-            :modules="modules"
-            class="mySwiper"
-        >
-            <swiper-slide>Slide 1</swiper-slide><swiper-slide>Slide 2</swiper-slide
-        ><swiper-slide>Slide 3</swiper-slide><swiper-slide>Slide 4</swiper-slide
-        ><swiper-slide>Slide 5</swiper-slide><swiper-slide>Slide 6</swiper-slide
-        ><swiper-slide>Slide 7</swiper-slide><swiper-slide>Slide 8</swiper-slide
-        ><swiper-slide>Slide 9</swiper-slide>
-        </swiper>
+      <swiper
+        :slidesPerView="5"
+        :spaceBetween="30"
+        :slidesPerGroup="1"
+        :loop="true"
+        :loopFillGroupWithBlank="true"
+        :pagination="{
+          clickable: true,
+        }"
+        :navigation="true"
+        :modules="modules"
+        class="mySwiper"
+      >
+        <swiper-slide>
+          <div
+            class="
+              flex
+              justify-center
+              flex-col
+              font-bold
+              text-xl
+              md:text-2xl
+              p-3
+              shadow-md
+              text-center
+              cursor-pointer
+              bg-white
+              product-wd
+            "
+          >
+            <div class="product-img">
+              <img src="/img/test.png" alt="" />
+            </div>
+            <div class="product-desc pt-2">
+              <h2>Kuchenne</h2>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div
+            class="
+              flex
+              justify-center
+              flex-col
+              font-bold
+              text-xl
+              md:text-2xl
+              p-3
+              shadow-md
+              text-center
+              cursor-pointer
+              bg-white
+              product-wd
+            "
+          >
+            <div class="product-img">
+              <img src="/img/test2.png" alt="" />
+            </div>
+            <div class="product-desc pt-2">
+              <h2>Laboratoryjne</h2>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div
+            class="
+              flex
+              justify-center
+              flex-col
+              font-bold
+              text-xl
+              md:text-2xl
+              p-3
+              shadow-md
+              text-center
+              cursor-pointer
+              bg-white
+              product-wd
+            "
+          >
+            <div class="product-img">
+              <img src="/img/test3.png" alt="" />
+            </div>
+            <div class="product-desc pt-2">
+              <h2>Standy</h2>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div
+            class="
+              flex
+              justify-center
+              flex-col
+              font-bold
+              text-xl
+              md:text-2xl
+              p-3
+              shadow-md
+              text-center
+              cursor-pointer
+              bg-white
+              product-wd
+            "
+          >
+            <div class="product-img">
+              <img src="/img/test4.png" alt="" />
+            </div>
+            <div class="product-desc pt-2">
+              <h2>Łóżka</h2>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div
+            class="
+              flex
+              justify-center
+              flex-col
+              font-bold
+              text-xl
+              md:text-2xl
+              p-3
+              shadow-md
+              text-center
+              cursor-pointer
+              bg-white
+              product-wd
+            "
+          >
+            <div class="product-img">
+              <img src="/img/test.png" alt="" />
+            </div>
+            <div class="product-desc pt-2">
+              <h2>Stacje</h2>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div
+            class="
+              flex
+              justify-center
+              flex-col
+              font-bold
+              text-xl
+              md:text-2xl
+              p-3
+              shadow-md
+              text-center
+              cursor-pointer
+              bg-white
+              product-wd
+            "
+          >
+            <div class="product-img">
+              <img src="/img/test2.png" alt="" />
+            </div>
+            <div class="product-desc pt-2">
+              <h2>Agata Meble</h2>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div
+            class="
+              flex
+              justify-center
+              flex-col
+              font-bold
+              text-xl
+              md:text-2xl
+              p-3
+              shadow-md
+              text-center
+              cursor-pointer
+              bg-white
+              product-wd
+            "
+          >
+            <div class="product-img">
+              <img src="/img/test3.png" alt="" />
+            </div>
+            <div class="product-desc pt-2">
+              <h2>Żabka</h2>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div
+            class="
+              flex
+              justify-center
+              flex-col
+              font-bold
+              text-xl
+              md:text-2xl
+              p-3
+              shadow-md
+              text-center
+              cursor-pointer
+              bg-white
+              product-wd
+            "
+          >
+            <div class="product-img">
+              <img src="/img/test4.png" alt="" />
+            </div>
+            <div class="product-desc pt-2">
+              <h2>Meble</h2>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div
+            class="
+              flex
+              justify-center
+              flex-col
+              text-xl
+              font-bold
+              md:text-2xl
+              p-3
+              shadow-md
+              text-center
+              cursor-pointer
+              bg-white
+              product-wd
+            "
+          >
+            <div class="product-img">
+              <img src="/img/test.png" alt="" />
+            </div>
+            <div class="product-desc pt-2">
+              <h2>Meble</h2>
+            </div>
+          </div>
+        </swiper-slide>
+      </swiper>
     </div>
   </div>
 </template>
@@ -36,21 +255,21 @@
 import { Swiper, SwiperSlide } from "swiper-vue2";
 
 // Import Swiper styles
-import 'swiper/swiper-bundle.css'
+import "swiper/swiper-bundle.css";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
 export default {
-    components: {
-        Swiper,
-        SwiperSlide,
-    },
-    setup() {
-        return {
-            modules: [Pagination, Navigation],
-        };
-    },
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  setup() {
+    return {
+      modules: [Pagination, Navigation],
+    };
+  },
 };
 </script>
 
