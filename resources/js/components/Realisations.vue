@@ -17,7 +17,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(1)"
       >
       </lazy-image>
       <lazy-image
@@ -26,7 +26,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(2)"
       >
       </lazy-image>
     </div>
@@ -37,7 +37,7 @@
         alt="Drewno"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(4)"
+        @click="showMultiple(3)"
       >
       </lazy-image>
       <lazy-image
@@ -46,7 +46,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(4)"
       >
       </lazy-image>
       <lazy-image
@@ -55,7 +55,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(5)"
       >
       </lazy-image>
     </div>
@@ -66,7 +66,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(6)"
       >
       </lazy-image>
       <lazy-image
@@ -75,7 +75,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(7)"
       >
       </lazy-image>
       <lazy-image
@@ -84,7 +84,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(8)"
       >
       </lazy-image>
     </div>
@@ -95,7 +95,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(9)"
       >
       </lazy-image>
       <lazy-image
@@ -104,18 +104,9 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(10)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
   </div>
   <div class="container row">
@@ -127,7 +118,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(11)"
       >
       </lazy-image>
     </div>
@@ -138,7 +129,7 @@
         alt="Drewno"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(4)"
+        @click="showMultiple(12)"
       >
       </lazy-image>
     </div>
@@ -149,7 +140,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(13)"
       >
       </lazy-image>
     </div>
@@ -160,18 +151,9 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(14)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
   </div>
   <div class="container row">
@@ -183,7 +165,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(15)"
       >
       </lazy-image>
       <lazy-image
@@ -192,7 +174,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(16)"
       >
       </lazy-image>
     </div>
@@ -203,7 +185,7 @@
         alt="Drewno"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(4)"
+        @click="showMultiple(17)"
       >
       </lazy-image>
       <lazy-image
@@ -212,7 +194,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(18)"
       >
       </lazy-image>
     </div>
@@ -223,7 +205,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(19)"
       >
       </lazy-image>
       <lazy-image
@@ -232,7 +214,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(20)"
       >
       </lazy-image>
     </div>
@@ -243,18 +225,9 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(21)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
   </div>
   <div class="container row">
@@ -266,7 +239,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(22)"
       >
       </lazy-image>
       <lazy-image
@@ -275,7 +248,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(23)"
       >
       </lazy-image>
       <lazy-image
@@ -284,7 +257,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(24)"
       >
       </lazy-image>
     </div>
@@ -295,7 +268,7 @@
         alt="Drewno"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(4)"
+        @click="showMultiple(25)"
       >
       </lazy-image>
       <lazy-image
@@ -304,7 +277,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(26)"
       >
       </lazy-image>
       <lazy-image
@@ -313,7 +286,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(27)"
       >
       </lazy-image>
     </div>
@@ -324,7 +297,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(28)"
       >
       </lazy-image>
       <lazy-image
@@ -333,7 +306,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(29)"
       >
       </lazy-image>
       <lazy-image
@@ -342,7 +315,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(30)"
       >
       </lazy-image>
       <lazy-image
@@ -351,7 +324,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(31)"
       >
       </lazy-image>
     </div>
@@ -362,7 +335,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(32)"
       >
       </lazy-image>
       <lazy-image
@@ -371,7 +344,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(33)"
       >
       </lazy-image>
       <lazy-image
@@ -380,7 +353,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(34)"
       >
       </lazy-image>
       <vue-easy-lightbox
@@ -403,7 +376,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(35)"
       >
       </lazy-image>
     </div>
@@ -414,18 +387,9 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(36)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
   </div>
   <div class="container row">
@@ -437,7 +401,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(37)"
       >
       </lazy-image>
       <lazy-image
@@ -446,7 +410,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(38)"
       >
       </lazy-image>
       <lazy-image
@@ -455,7 +419,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(39)"
       >
       </lazy-image>
       <lazy-image
@@ -464,7 +428,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(40)"
       >
       </lazy-image>
     </div>
@@ -475,7 +439,7 @@
         alt="Drewno"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(4)"
+        @click="showMultiple(41)"
       >
       </lazy-image>
       <lazy-image
@@ -484,7 +448,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(42)"
       >
       </lazy-image>
       <lazy-image
@@ -493,7 +457,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(43)"
       >
       </lazy-image>
       <lazy-image
@@ -502,7 +466,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(44)"
       >
       </lazy-image>
     </div>
@@ -513,7 +477,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(45)"
       >
       </lazy-image>
       <lazy-image
@@ -522,7 +486,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(46)"
       >
       </lazy-image>
       <lazy-image
@@ -531,7 +495,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(47)"
       >
       </lazy-image>
       <lazy-image
@@ -540,7 +504,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(48)"
       >
       </lazy-image>
     </div>
@@ -551,7 +515,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(49)"
       >
       </lazy-image>
       <lazy-image
@@ -560,7 +524,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(50)"
       >
       </lazy-image>
       <lazy-image
@@ -569,7 +533,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(51)"
       >
       </lazy-image>
       <lazy-image
@@ -578,18 +542,9 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(52)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
   </div>
   <div class="container row">
@@ -601,7 +556,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(53)"
       >
       </lazy-image>
       <lazy-image
@@ -610,7 +565,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(54)"
       >
       </lazy-image>
       <lazy-image
@@ -619,7 +574,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(55)"
       >
       </lazy-image>
     </div>
@@ -630,7 +585,7 @@
         alt="Drewno"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(4)"
+        @click="showMultiple(56)"
       >
       </lazy-image>
       <lazy-image
@@ -639,7 +594,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(57)"
       >
       </lazy-image>
       <lazy-image
@@ -648,7 +603,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(58)"
       >
       </lazy-image>
     </div>
@@ -659,7 +614,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(59)"
       >
       </lazy-image>
       <lazy-image
@@ -668,7 +623,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(60)"
       >
       </lazy-image>
       <lazy-image
@@ -677,7 +632,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(61)"
       >
       </lazy-image>
     </div>
@@ -688,7 +643,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(62)"
       >
       </lazy-image>
       <lazy-image
@@ -697,7 +652,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(63)"
       >
       </lazy-image>
       <lazy-image
@@ -706,18 +661,9 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(64)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
   </div>
   <div class="container row">
@@ -729,7 +675,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(65)"
       >
       </lazy-image>
       <lazy-image
@@ -738,7 +684,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(66)"
       >
       </lazy-image>
     </div>
@@ -749,7 +695,7 @@
         alt="Drewno"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(4)"
+        @click="showMultiple(67)"
       >
       </lazy-image>
       <lazy-image
@@ -758,7 +704,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(68)"
       >
       </lazy-image>
     </div>
@@ -769,7 +715,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(69)"
       >
       </lazy-image>
       <lazy-image
@@ -778,7 +724,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(70)"
       >
       </lazy-image>
     </div>
@@ -789,7 +735,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(71)"
       >
       </lazy-image>
       <lazy-image
@@ -798,18 +744,9 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(72)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
   </div>
   <div class="container row">
@@ -821,7 +758,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(73)"
       >
       </lazy-image>
       <lazy-image
@@ -830,7 +767,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(74)"
       >
       </lazy-image>
     </div>
@@ -841,7 +778,7 @@
         alt="Drewno"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(4)"
+        @click="showMultiple(75)"
       >
       </lazy-image>
       <lazy-image
@@ -850,7 +787,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(76)"
       >
       </lazy-image>
     </div>
@@ -861,7 +798,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(77)"
       >
       </lazy-image>
       <lazy-image
@@ -870,7 +807,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(78)"
       >
       </lazy-image>
     </div>
@@ -881,7 +818,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(79)"
       >
       </lazy-image>
     </div>
@@ -895,7 +832,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(80)"
       >
       </lazy-image>
     </div>
@@ -906,7 +843,7 @@
         alt="Drewno"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(4)"
+        @click="showMultiple(81)"
       >
       </lazy-image>
     </div>
@@ -917,7 +854,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(82)"
       >
       </lazy-image>
       <vue-easy-lightbox
@@ -937,18 +874,9 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(83)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
   </div>
   <div class="container row">
@@ -960,7 +888,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(84)"
       >
       </lazy-image>
       <lazy-image
@@ -969,7 +897,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(85)"
       >
       </lazy-image>
       <lazy-image
@@ -978,7 +906,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(86)"
       >
       </lazy-image>
       <lazy-image
@@ -987,7 +915,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(87)"
       >
       </lazy-image>
       <lazy-image
@@ -996,7 +924,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(88)"
       >
       </lazy-image>
       <lazy-image
@@ -1005,7 +933,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(89)"
       >
       </lazy-image>
     </div>
@@ -1016,7 +944,7 @@
         alt="Drewno"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(4)"
+        @click="showMultiple(90)"
       >
       </lazy-image>
       <lazy-image
@@ -1025,7 +953,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(91)"
       >
       </lazy-image>
       <lazy-image
@@ -1034,7 +962,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(92)"
       >
       </lazy-image>
       <lazy-image
@@ -1043,7 +971,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(93)"
       >
       </lazy-image>
       <lazy-image
@@ -1052,7 +980,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(94)"
       >
       </lazy-image>
       <lazy-image
@@ -1061,7 +989,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(95)"
       >
       </lazy-image>
     </div>
@@ -1072,7 +1000,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(96)"
       >
       </lazy-image>
       <lazy-image
@@ -1081,7 +1009,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(97)"
       >
       </lazy-image>
       <lazy-image
@@ -1090,7 +1018,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(98)"
       >
       </lazy-image>
       <lazy-image
@@ -1099,7 +1027,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(99)"
       >
       </lazy-image>
       <lazy-image
@@ -1108,7 +1036,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(100)"
       >
       </lazy-image>
       <lazy-image
@@ -1117,7 +1045,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(101)"
       >
       </lazy-image>
     </div>
@@ -1128,7 +1056,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(102)"
       >
       </lazy-image>
       <lazy-image
@@ -1137,7 +1065,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(103)"
       >
       </lazy-image>
       <lazy-image
@@ -1146,7 +1074,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(104)"
       >
       </lazy-image>
       <lazy-image
@@ -1155,7 +1083,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(105)"
       >
       </lazy-image>
       <lazy-image
@@ -1164,7 +1092,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(106)"
       >
       </lazy-image>
       <lazy-image
@@ -1173,18 +1101,9 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(107)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
   </div>
   <div class="container row">
@@ -1196,7 +1115,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(108)"
       >
       </lazy-image>
       <lazy-image
@@ -1205,7 +1124,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(109)"
       >
       </lazy-image>
       <lazy-image
@@ -1214,7 +1133,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(110)"
       >
       </lazy-image>
     </div>
@@ -1225,7 +1144,7 @@
         alt="Drewno"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(4)"
+        @click="showMultiple(111)"
       >
       </lazy-image>
       <lazy-image
@@ -1234,7 +1153,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(112)"
       >
       </lazy-image>
       <lazy-image
@@ -1243,7 +1162,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(113)"
       >
       </lazy-image>
     </div>
@@ -1254,7 +1173,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(114)"
       >
       </lazy-image>
       <lazy-image
@@ -1263,7 +1182,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(115)"
       >
       </lazy-image>
       <lazy-image
@@ -1272,7 +1191,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(116)"
       >
       </lazy-image>
     </div>
@@ -1283,7 +1202,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(117)"
       >
       </lazy-image>
       <lazy-image
@@ -1292,7 +1211,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(118)"
       >
       </lazy-image>
       <lazy-image
@@ -1301,18 +1220,9 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(119)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
   </div>
   <div class="container row">
@@ -1324,7 +1234,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(120)"
       >
       </lazy-image>
       <lazy-image
@@ -1333,7 +1243,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(121)"
       >
       </lazy-image>
       <lazy-image
@@ -1342,7 +1252,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(122)"
       >
       </lazy-image>
     </div>
@@ -1353,7 +1263,7 @@
         alt="Drewno"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(4)"
+        @click="showMultiple(123)"
       >
       </lazy-image>
       <lazy-image
@@ -1362,7 +1272,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(124)"
       >
       </lazy-image>
       <lazy-image
@@ -1371,7 +1281,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(125)"
       >
       </lazy-image>
     </div>
@@ -1382,7 +1292,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(126)"
       >
       </lazy-image>
       <lazy-image
@@ -1391,7 +1301,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(127)"
       >
       </lazy-image>
       <lazy-image
@@ -1400,7 +1310,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(128)"
       >
       </lazy-image>
     </div>
@@ -1411,7 +1321,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(129)"
       >
       </lazy-image>
       <lazy-image
@@ -1420,7 +1330,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(130)"
       >
       </lazy-image>
       <lazy-image
@@ -1429,18 +1339,9 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(131)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
   </div>
   <div class="container row">
@@ -1452,7 +1353,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(132)"
       >
       </lazy-image>
     </div>
@@ -1463,7 +1364,7 @@
         alt="Drewno"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(4)"
+        @click="showMultiple(133)"
       >
       </lazy-image>
     </div>
@@ -1474,7 +1375,7 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(134)"
       >
       </lazy-image>
     </div>
@@ -1485,25 +1386,26 @@
         alt="Test1"
         :blur-amount="2"
         class="klasa"
-        @click="showMultiple(0)"
+        @click="showMultiple(135)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
+      <vue-easy-lightbox
+          scrollDisabled
+          escDisabled
+          moveDisabled
+          :visible="visible"
+          :imgs="imgs"
+          :index="index"
+          @hide="handleHide"
+      ></vue-easy-lightbox>
   </div>
 </template>
 
 <script>
 import VueEasyLightbox from "vue-easy-lightbox";
 import LazyImage from "./comps/LazyImage";
+import axios from 'axios';
 
 export default {
   components: {
@@ -1512,20 +1414,31 @@ export default {
   },
   data() {
     return {
-      imgs: "", // Img Url , string or Array of string
+      imgs: [], // Img Url , string or Array of string
       visible: false,
       index: 0, // default: 0
     };
   },
-  methods: {
+    mounted() {
+        this.images();
+    },
+    methods: {
+    images: function () {
+        axios.get("/api/images")
+            .then((response) => {
+                this.resp = response.data.data;
+                for(let i = 0; i<this.resp.length;i++){
+                    this.respImages = this.resp[i].images;
+                    for(let j = 0;j<this.respImages.length;j++){
+                        // console.log(this.resp[i].realisation+"/"+this.respImages[j]);
+                        this.imgs.push('/img/'+this.resp[i].realisation+'/'+this.respImages[j]);
+                    }
+                }
+                // console.log(this.resp);
+            });
+    },
     showMultiple(index) {
-      this.imgs = [
-        { title: "test img", src: "/img/test.png" },
-        { title: "test img", src: "/img/test2.png" },
-        { title: "test img", src: "/img/test3.png" },
-        { title: "test img", src: "/img/test4.png" },
-        { title: "test img", src: "/img/wood.jpg" },
-      ];
+
       // allow mixing
 
       this.index = index; // index of imgList
