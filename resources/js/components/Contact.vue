@@ -34,6 +34,7 @@
             required
         ></textarea
         ><br />
+        <p style="color: orangered" v-if="sent === 2">Wysyłam wiadomość!</p>
         <p style="color: green" v-if="sent === 1">Wiadomość wysłana!</p>
         <button type="submit">Wyślij</button>
     </form>
@@ -48,6 +49,7 @@ export default {
             email: "",
             phoneNumber: "",
             message: "",
+            sent: 0,
             csrf: document
                 .querySelector('meta[name="csrf-token"]')
                 .getAttribute("content"),
@@ -55,6 +57,7 @@ export default {
     },
     methods: {
         async sendMessage() {
+            this.sent = 2;
             const res = await fetch("/api/sendMessage", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -67,6 +70,8 @@ export default {
                 }),
             });
             const data = await res.json();
+            console.log(data);
+            console.log(data.sent);
             this.sent = data.sent;
         },
     },
