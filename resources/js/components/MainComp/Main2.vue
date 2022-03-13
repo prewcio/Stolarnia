@@ -16,10 +16,10 @@
           "
         >
           <div class="product-img">
-            <img src="/img/testowe/main-1.jpg" alt="" class="rounded-lg" />
+            <img src="/img/Domy/domy-4.jpg" alt="" class="rounded-lg" />
           </div>
           <div class="product-desc pt-2">
-            <h2>Biurka</h2>
+            <h2>Domy</h2>
           </div>
         </div>
         <div
@@ -36,7 +36,7 @@
           "
         >
           <div class="product-img">
-            <img src="/img/testowe/main-2.jpg" alt="" class="rounded-lg" />
+            <img src="/img/Kuchnie/kuchnie-3.jpg" alt="" class="rounded-lg" />
           </div>
           <div class="product-desc pt-2">
             <h2>Kuchnie</h2>
@@ -56,10 +56,14 @@
           "
         >
           <div class="product-img">
-            <img src="/img/test/zdjecie-10.jpg" alt="" class="rounded-lg" />
+            <img
+              src="/img/Kuchnia_Stylowa/KuchniaStyl-3.jpg"
+              alt=""
+              class="rounded-lg"
+            />
           </div>
           <div class="product-desc pt-2">
-            <h2>Meble na wymiar</h2>
+            <h2>Kuchnie Stylowe</h2>
           </div>
         </div>
         <div
@@ -76,7 +80,11 @@
           "
         >
           <div class="product-img">
-            <img src="/img/testowe/main-4.jpg" alt="" class="rounded-lg" />
+            <img
+              src="/img/Mini_Akademik/MiniAkad-15.jpg"
+              alt=""
+              class="rounded-lg"
+            />
           </div>
           <div class="product-desc pt-2">
             <h2>Akademiki</h2>
