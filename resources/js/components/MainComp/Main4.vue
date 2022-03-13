@@ -8,7 +8,7 @@
 
     <div class="slider">
       <swiper
-        :slidesPerView="5"
+        :slidesPerView="4"
         :spaceBetween="30"
         :slidesPerGroup="1"
         :loop="true"
@@ -17,6 +17,9 @@
           clickable: true,
         }"
         :navigation="true"
+        :autoplay="{
+            delay: 5000
+        }"
         :modules="modules"
         class="mySwiper"
       >
@@ -27,8 +30,8 @@
               justify-center
               flex-col
               font-bold
-              text-xl
-              md:text-2xl
+              text-md
+              md:text-lg
               p-3
               shadow-md
               text-center
@@ -52,8 +55,8 @@
               justify-center
               flex-col
               font-bold
-              text-xl
-              md:text-2xl
+              text-md
+              md:text-lg
               p-3
               shadow-md
               text-center
@@ -77,8 +80,8 @@
               justify-center
               flex-col
               font-bold
-              text-xl
-              md:text-2xl
+              text-md
+              md:text-lg
               p-3
               shadow-md
               text-center
@@ -102,8 +105,8 @@
               justify-center
               flex-col
               font-bold
-              text-xl
-              md:text-2xl
+              text-md
+              md:text-lg
               p-3
               shadow-md
               text-center
@@ -127,8 +130,8 @@
               justify-center
               flex-col
               font-bold
-              text-xl
-              md:text-2xl
+              text-md
+              md:text-lg
               p-3
               shadow-md
               text-center
@@ -152,8 +155,8 @@
               justify-center
               flex-col
               font-bold
-              text-xl
-              md:text-2xl
+              text-md
+              md:text-lg
               p-3
               shadow-md
               text-center
@@ -177,8 +180,8 @@
               justify-center
               flex-col
               font-bold
-              text-xl
-              md:text-2xl
+              text-md
+              md:text-lg
               p-3
               shadow-md
               text-center
@@ -201,9 +204,9 @@
               flex
               justify-center
               flex-col
-              text-xl
               font-bold
-              md:text-2xl
+              text-md
+              md:text-lg
               p-3
               shadow-md
               text-center
@@ -221,25 +224,35 @@
           </div>
         </swiper-slide>
       </swiper>
+
     </div>
   </div>
 </template>
 
 <script>
-import { Swiper, SwiperSlide } from "swiper-vue2";
-import "swiper/swiper-bundle.css";
-import { Pagination, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/vue";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/bundle";
+
+// import "swiper/css/swiper-bundle"
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default {
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  setup() {
-    return {
-      modules: [Pagination, Navigation],
-    };
-  },
+    components: {
+        Swiper,
+        SwiperSlide,
+    },
+    setup() {
+        return {
+            modules: [Autoplay, Pagination, Navigation],
+        };
+    },
 };
 </script>
 
