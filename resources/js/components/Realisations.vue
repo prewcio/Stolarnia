@@ -1,10 +1,50 @@
 <template>
     <div>
-        <img src="/img/test.png" @click="showMultiple(0)" />
-        <img src="/img/test2.png" @click="showMultiple(1)" />
-        <img src="/img/test3.png" @click="showMultiple(2)" />
-        <img src="/img/test4.png" @click="showMultiple(3)" />
-        <img src="/img/wood.jpg" @click="showMultiple(4)" />
+        <lazy-image
+            initial-image="/img/load.gif"
+            final-image="/img/test.png"
+            alt="Test1"
+            :blur-amount="2"
+            class="klasa"
+            @click="showMultiple(0)"
+        >
+        </lazy-image>
+        <lazy-image
+            initial-image="/img/load.gif"
+            final-image="/img/test2.png"
+            alt="Test2"
+            :blur-amount="2"
+            class="klasa"
+            @click="showMultiple(1)"
+        >
+        </lazy-image>
+        <lazy-image
+            initial-image="/img/load.gif"
+            final-image="/img/test3.png"
+            alt="Test3"
+            :blur-amount="2"
+            class="klasa"
+            @click="showMultiple(2)"
+        >
+        </lazy-image>
+        <lazy-image
+            initial-image="/img/load.gif"
+            final-image="/img/test4.png"
+            alt="Test4"
+            :blur-amount="2"
+            class="klasa"
+            @click="showMultiple(3)"
+        >
+        </lazy-image>
+        <lazy-image
+            initial-image="/img/load.gif"
+            final-image="/img/wood2.jpg"
+            alt="Drewno"
+            :blur-amount="2"
+            class="klasa"
+            @click="showMultiple(4)"
+        >
+        </lazy-image>
 
         <!-- all props & events -->
         <vue-easy-lightbox
@@ -21,9 +61,11 @@
 
 <script>
 import VueEasyLightbox from 'vue-easy-lightbox'
+import LazyImage from "./comps/LazyImage";
 
 export default {
     components: {
+        LazyImage,
         VueEasyLightbox
     },
     data() {
