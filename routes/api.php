@@ -19,3 +19,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::post('sendMessage', 'App\Http\Controllers\Api\ContactController@sendMessage');
+
+Route::get('images', 'App\Http\Controllers\Api\ImagesController@getImages');

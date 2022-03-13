@@ -36,4 +36,5 @@ const Vue = createApp({
     }
 })
 Vue.use(VueEasyLightbox);
+
 Vue.mount("#app");
