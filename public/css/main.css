@@ -173,7 +173,7 @@
     height: 50px;
     font-weight: bold;
 }
-iframe {
+.container iframe {
     height: 500px;
 }
 .contact-form button {
@@ -219,7 +219,8 @@ iframe {
         font-weight: bold;
     }
     .main-desc p {
-        max-width: 36em;
+        max-width: 100%;
+        margin: 0 auto;
         font-size: 1.2em;
     }
     .main-desc button {
