@@ -73,7 +73,7 @@
               <img src="/img/test/zdjecie-2.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
-              <h2>Na Różne</h2>
+              <h2>Narożne</h2>
             </div>
           </div>
         </swiper-slide>
@@ -96,7 +96,7 @@
               <img src="/img/testowe/main-3.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
-              <h2>Meble Łaźienkowe</h2>
+              <h2>Meble Łazienkowe</h2>
             </div>
           </div>
         </swiper-slide>
