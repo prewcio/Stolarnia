@@ -162,7 +162,7 @@
 .swiper-pagination, .swiper-pagination-clickable, .swiper-pagination-bullets, .swiper-pagination-horizontal {
     padding-top: 10px !important;
 }
-.product-desc {
+.product-desc-2 {
     font-size: 1.5em;
 }
 @media only screen and (max-width: 768px) {
@@ -238,7 +238,7 @@
         font-size: 2em;
         font-weight: bold;
     }
-    .product-desc {
+    .product-desc-2 {
         font-size: 1.1em;
     }
     .swiper-button-prev::after,.swiper-button-next::after {

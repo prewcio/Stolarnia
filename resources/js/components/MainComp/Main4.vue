@@ -49,7 +49,7 @@
             <div class="product-img">
               <img src="/img/test.png" alt="" />
             </div>
-            <div class="product-desc pt-2">
+            <div class="product-desc-2 pt-2">
               <h2>Kuchenne</h2>
             </div>
           </div>
@@ -72,7 +72,7 @@
             <div class="product-img">
               <img src="/img/test3.png" alt="" />
             </div>
-            <div class="product-desc pt-2">
+            <div class="product-desc-2 pt-2">
               <h2>Standy</h2>
             </div>
           </div>
@@ -95,7 +95,7 @@
             <div class="product-img">
               <img src="/img/test4.png" alt="" />
             </div>
-            <div class="product-desc pt-2">
+            <div class="product-desc-2 pt-2">
               <h2>Łóżka</h2>
             </div>
           </div>
@@ -118,7 +118,7 @@
             <div class="product-img">
               <img src="/img/test.png" alt="" />
             </div>
-            <div class="product-desc pt-2">
+            <div class="product-desc-2 pt-2">
               <h2>Stacje</h2>
             </div>
           </div>
@@ -141,7 +141,7 @@
             <div class="product-img">
               <img src="/img/test2.png" alt="" />
             </div>
-            <div class="product-desc pt-2">
+            <div class="product-desc-2 pt-2">
               <h2>Agata Meble</h2>
             </div>
           </div>
@@ -187,7 +187,7 @@
             <div class="product-img">
               <img src="/img/test4.png" alt="" />
             </div>
-            <div class="product-desc pt-2">
+            <div class="product-desc-2 pt-2">
               <h2>Meble</h2>
             </div>
           </div>
@@ -210,7 +210,7 @@
             <div class="product-img">
               <img src="/img/test.png" alt="" />
             </div>
-            <div class="product-desc pt-2">
+            <div class="product-desc-2 pt-2">
               <h2>Meble</h2>
             </div>
           </div>
