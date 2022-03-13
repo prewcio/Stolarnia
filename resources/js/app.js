@@ -55,6 +55,8 @@ import ftr from './components/includes/Footer.vue';
 import navi from './components/includes/Navi.vue';
 import socials from './components/Socials.vue';
 import contact from './components/Contact.vue';
+import realisations from './components/Realisations.vue';
+import about from './components/About.vue';
 
 //Imports Local Comps
 import main_c1 from './components/MainComp/Main.vue';
@@ -72,6 +74,8 @@ const Vue = createApp({
         mainy,
         socials,
         contact,
+        realisations,
+        about,
         main_c1,
         main_c2,
         main_c3,

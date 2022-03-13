@@ -87,7 +87,7 @@
             <img src="/img/test4.png" alt="" class="rounded-lg" />
           </div>
           <div class="realization-desc pt-2 font-bold">
-            <h2>Różne</h2>
+            <h2>Różne</h2><br>
           </div>
         </div>
       </div>
