@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="footer">
+    <div class="footer bg-gray-100">
       <p>&copy; {{ CurrentYear }} Anmar-Meble S.C Wszelkie prawa zastrzeżone</p>
     </div>
   </footer>
