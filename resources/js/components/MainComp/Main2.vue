@@ -19,7 +19,7 @@
             <img src="/img/testowe/main-1.jpg" alt="" class="rounded-lg" />
           </div>
           <div class="product-desc pt-2">
-            <h2>Meble kuchenne</h2>
+            <h2>Biurka</h2>
           </div>
         </div>
         <div
@@ -39,7 +39,7 @@
             <img src="/img/testowe/main-2.jpg" alt="" class="rounded-lg" />
           </div>
           <div class="product-desc pt-2">
-            <h2>Meble Łaźienkowe</h2>
+            <h2>Kuchnie</h2>
           </div>
         </div>
         <div
@@ -79,7 +79,7 @@
             <img src="/img/testowe/main-4.jpg" alt="" class="rounded-lg" />
           </div>
           <div class="product-desc pt-2">
-            <h2>Akademik</h2>
+            <h2>Akademiki</h2>
           </div>
         </div>
       </div>
