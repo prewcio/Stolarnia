@@ -26,7 +26,6 @@
     },
     "dependencies": {
         "swiper": "^8.0.7",
-        "swiper-vue2": "^1.0.6",
         "webpack": "^5.70.0"
     }
 }
