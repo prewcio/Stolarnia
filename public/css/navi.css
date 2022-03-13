@@ -11,6 +11,7 @@ body {
     width: 250px;
 }
 .navigation {
+    background-color: rgb(243 244 246);;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -62,7 +63,7 @@ body {
         font-size: 1.1em;
     }
     .nav-menu {
-        background-color: var(--color-white);
+        background-color: rgb(243 244 246);;
         position: absolute;
         left: -100%;
         top: 4.2rem;
