@@ -6,9 +6,9 @@
     <nav>
       <ul class="nav-menu">
         <li><a href="/">Home</a></li>
-        <li><a href="/">O Firmie</a></li>
-        <li><a href="/">Realizacje</a></li>
-        <li><a href="/">Kontakt</a></li>
+        <li><a href="/about">O Firmie</a></li>
+        <li><a href="/realisation">Realizacje</a></li>
+        <li><a href="/contact">Kontakt</a></li>
       </ul>
     </nav>
     <div class="hamburger-menu">

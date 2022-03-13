@@ -17,4 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/contact', 'App\Http\Controllers\Api\ContactController@sendMail');
+Route::get('/contact', function () {
+    return view('contact');
+});
