@@ -176,6 +176,15 @@
 iframe {
     height: 500px;
 }
+.contact-form button {
+    font-weight: 500;
+    font-size: 1em;
+    outline: none;
+    background-color: var(--color-gold);
+    border: none;
+    color: var(--color-white);
+    padding: 10px 20px;
+}
 @media only screen and (max-width: 768px) {
     .line-1 {
         width: 80px;
@@ -276,10 +285,20 @@ iframe {
     form {
         width: 100%;
     }
-.swiper-slide img {
-    display: block;
-    width: 150px;
-    height: 100%;
-    object-fit: cover;
-}
+    .swiper-slide img {
+        display: block;
+        width: 150px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .contact-form button {
+        font-weight: 500;
+        font-size: 1.2em;
+        outline: none;
+        background-color: var(--color-gold);
+        border: none;
+        color: var(--color-white);
+        padding: 10px 20px;
+        width: 100%;
+    }
 }
