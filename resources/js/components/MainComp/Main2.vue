@@ -16,7 +16,7 @@
           "
         >
           <div class="product-img">
-            <img src="/img/test.png" alt="" class="rounded-lg" />
+            <img src="/img/testowe/main-1.jpg" alt="" class="rounded-lg" />
           </div>
           <div class="product-desc pt-2">
             <h2>Meble kuchenne</h2>
@@ -36,10 +36,10 @@
           "
         >
           <div class="product-img">
-            <img src="/img/test2.png" alt="" class="rounded-lg" />
+            <img src="/img/testowe/main-2.jpg" alt="" class="rounded-lg" />
           </div>
           <div class="product-desc pt-2">
-            <h2>Meble laboratoryjne</h2>
+            <h2>Meble Łaźienkowe</h2>
           </div>
         </div>
         <div
@@ -56,7 +56,7 @@
           "
         >
           <div class="product-img">
-            <img src="/img/test3.png" alt="" class="rounded-lg" />
+            <img src="/img/test/zdjecie-10.jpg" alt="" class="rounded-lg" />
           </div>
           <div class="product-desc pt-2">
             <h2>Meble na wymiar</h2>
@@ -76,10 +76,10 @@
           "
         >
           <div class="product-img">
-            <img src="/img/test4.png" alt="" class="rounded-lg" />
+            <img src="/img/testowe/main-4.jpg" alt="" class="rounded-lg" />
           </div>
           <div class="product-desc pt-2">
-            <h2>Różne</h2>
+            <h2>Akademik</h2>
           </div>
         </div>
       </div>

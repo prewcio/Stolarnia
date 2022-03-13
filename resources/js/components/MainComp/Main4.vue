@@ -47,7 +47,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/test.png" alt="" />
+              <img src="/img/testowe/main-4.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Kuchenne</h2>
@@ -70,7 +70,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/test3.png" alt="" />
+              <img src="/img/test/zdjecie-2.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Standy</h2>
@@ -93,7 +93,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/test4.png" alt="" />
+              <img src="/img/testowe/main-3.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Łóżka</h2>
@@ -116,10 +116,10 @@
             "
           >
             <div class="product-img">
-              <img src="/img/test.png" alt="" />
+              <img src="/img/testowe/main-2.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
-              <h2>Stacje</h2>
+              <h2>Meble Kuchenne</h2>
             </div>
           </div>
         </swiper-slide>
@@ -139,10 +139,10 @@
             "
           >
             <div class="product-img">
-              <img src="/img/test2.png" alt="" />
+              <img src="/img/test/zdjecie-5.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
-              <h2>Agata Meble</h2>
+              <h2>Meble Domowe</h2>
             </div>
           </div>
         </swiper-slide>
@@ -162,7 +162,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/test3.png" alt="" />
+              <img src="/img/test/zdjecie-6.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Żabka</h2>
@@ -185,7 +185,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/test4.png" alt="" />
+              <img src="/img/testowe/main-1.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Meble</h2>
@@ -208,7 +208,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/test.png" alt="" />
+              <img src="/img/test/zdjecie-8.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Meble</h2>
