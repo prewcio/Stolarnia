@@ -30,6 +30,7 @@ class ContactController extends Controller
             'id' => $id,
             'from' => $name,
             'fromEmail' => $email,
+            'phone' => $phoneNumber,
             'message' => $message,
             'sent' => $sent,
             'sent_hr' => $sent_hr

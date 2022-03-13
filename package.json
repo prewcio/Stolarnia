@@ -26,6 +26,7 @@
     },
     "dependencies": {
         "swiper": "^8.0.7",
+        "vue-easy-lightbox": "^1.4.1",
         "webpack": "^5.70.0"
     }
 }

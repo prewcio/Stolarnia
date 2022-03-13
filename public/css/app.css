@@ -11745,6 +11745,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 1536px;
   }
 }
+.visible {
+  visibility: visible;
+}
 .m-4 {
   margin: 1rem;
 }
@@ -11761,9 +11764,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .mr-0 {
   margin-right: 0px;
-}
-.block {
-  display: block;
 }
 .flex {
   display: flex;

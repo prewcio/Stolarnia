@@ -29,3 +29,34 @@ if(menu.length) {
         }
     })
 }
+
+var btntop = document.getElementById("btn-top");
+window.onscroll = function () { scrollFunction() };
+
+$(document).ready( function (){
+    btntop.style.display = "block";
+    btntop.style.visibility = "hidden";
+    btntop.style.opacity = "0";
+})
+
+$('#btn-top').click(function (){
+    topFunction();
+});
+$('#btn-top-arrow').click(function (){
+    topFunction();
+});
+
+function scrollFunction() {
+    if (window.scrollY) {
+        btntop.style.visibility = "visible";
+        btntop.style.opacity = "1";
+    } else {
+        btntop.style.opacity = "0";
+        setTimeout(function (){
+            btntop.style.visibility = "hidden";
+        },500)
+    }
+}
+function topFunction() {
+    window.scrollTo(0, 0);
+}

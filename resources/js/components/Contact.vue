@@ -13,7 +13,7 @@
         <form @submit.prevent="sendMessage">
           <div class="flex flex-col md:flex-row">
             <div class="flex flex-col w-full">
-              <label for="">Imie i Nazwisko *</label>
+              <label for="name" class="required">Imie i Nazwisko</label>
               <input
                 class="border-1 p-2 mr-0 md:mr-4"
                 type="text"
@@ -24,7 +24,7 @@
               />
             </div>
             <div class="flex flex-col w-full">
-              <label for="">E-mail *</label>
+              <label for="email" class="required">E-mail</label>
               <input
                 class="border-1 p-2 mr-0 md:mr-4"
                 type="email"
@@ -35,7 +35,7 @@
               />
             </div>
             <div class="flex flex-col w-full">
-              <label for="">Numer Telefonu *</label>
+              <label for="phone" class="required">Numer Telefonu</label>
               <input
                 class="border-1 p-2"
                 type="tel"
@@ -47,7 +47,7 @@
             </div>
           </div>
           <div class="flex flex-col w-full">
-            <label for="">Wiadomość *</label>
+            <label class="required">Wiadomość</label>
             <textarea
               class="border-1 p-2"
               name="msg"
@@ -59,7 +59,7 @@
             ></textarea
             ><br />
           </div>
-          <p style="color: orangered" v-if="sent === 2">Wysyłam wiadomość!</p>
+          <p style="color: orange" v-if="sent === 2">Wysyłam wiadomość!</p>
           <p style="color: green" v-if="sent === 1">Wiadomość wysłana!</p>
           <button type="submit">Wyślij</button>
         </form>
