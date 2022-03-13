@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation bg-gray-100">
+  <div class="navigation">
     <div class="logo">
       <a href="/"><img src="/img/logo_alpha.png" alt="logo" /></a>
     </div>
