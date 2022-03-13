@@ -162,6 +162,9 @@
 .swiper-pagination, .swiper-pagination-clickable, .swiper-pagination-bullets, .swiper-pagination-horizontal {
     padding-top: 10px !important;
 }
+.product-desc {
+    font-size: 1.5em;
+}
 @media only screen and (max-width: 768px) {
     .line-1 {
         width: 80px;
@@ -182,7 +185,7 @@
         height: 90vh;
     }
     .slider {
-        height: 250px;
+        height: 350px;
     }
     .main-desc {
         padding-left: 5px;
@@ -236,6 +239,24 @@
         font-weight: bold;
     }
     .product-desc {
-        width: 100px;
+        font-size: 1.1em;
     }
+    .swiper-button-prev::after,.swiper-button-next::after {
+        background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7));
+        padding: 10px;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 100px;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width: 1024px) {
+.swiper-slide img {
+    display: block;
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+}
 }

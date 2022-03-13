@@ -65,7 +65,6 @@ import main_c5 from './components/MainComp/Main5.vue';
 
 //Components
 import lazy_img from './components/comps/LazyImage.vue';
-
 const Vue = createApp({
     components: {
         ftr,
@@ -82,20 +81,3 @@ const Vue = createApp({
     }
 })
 Vue.mount("#app");
-// //Sites
-// Vue
-//     .component('ftr', ftr)
-//     .component('navi', navi)
-//     .component('mainy', Main)
-//     .component('socials', socials)
-//     .component('contact', contact)
-//
-// //Local Components
-//     .component('main_c1', main1)
-//     .component('main_c2', main2)
-//     .component('main_c3', main3)
-//     .component('main_c4', main4)
-//     .component('main_c5', main5)
-//
-// //Components Global
-//     .component('lazy_img',lazy_img);
