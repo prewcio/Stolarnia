@@ -8,7 +8,15 @@
 
     <div class="slider">
       <swiper
-        :slidesPerView="3"
+        :slidesPerView="2"
+        :breakpoints="{
+          1024: {
+            slidesPerView: '4',
+          },
+          640: {
+            slidesPerView: '3',
+          },
+        }"
         :spaceBetween="30"
         :slidesPerGroup="1"
         :loop="true"

@@ -20,7 +20,7 @@
           <div class="product-img">
             <img src="/img/test.png" alt="" class="rounded-lg" />
           </div>
-          <div class="realization-desc pt-2">
+          <div class="realization-desc pt-2 font-bold">
             <h2>Meble kuchenne</h2>
           </div>
         </div>
@@ -42,7 +42,7 @@
           <div class="product-img">
             <img src="/img/test2.png" alt="" class="rounded-lg" />
           </div>
-          <div class="realization-desc pt-2">
+          <div class="realization-desc pt-2 font-bold">
             <h2>Meble laboratoryjne</h2>
           </div>
         </div>
@@ -64,7 +64,7 @@
           <div class="product-img">
             <img src="/img/test3.png" alt="" class="rounded-lg" />
           </div>
-          <div class="realization-desc pt-2">
+          <div class="realization-desc pt-2 font-bold">
             <h2>Meble na wymiar</h2>
           </div>
         </div>
@@ -86,7 +86,7 @@
           <div class="product-img">
             <img src="/img/test4.png" alt="" class="rounded-lg" />
           </div>
-          <div class="realization-desc pt-2">
+          <div class="realization-desc pt-2 font-bold">
             <h2>Różne</h2>
           </div>
         </div>
