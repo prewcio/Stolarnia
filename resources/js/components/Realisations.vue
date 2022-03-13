@@ -356,15 +356,6 @@
         @click="showMultiple(34)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
   </div>
   <div class="container row">
