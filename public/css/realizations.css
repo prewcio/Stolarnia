@@ -20,7 +20,12 @@
     vertical-align: middle;
     width: 100%;
   }
-  
+  .container h1 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
   @media screen and (max-width: 800px) {
     .column {
       -ms-flex: 50%;
@@ -30,8 +35,8 @@
   }
   @media screen and (max-width: 600px) {
     .column {
-      -ms-flex: 100%;
-      flex: 100%;
-      max-width: 100%;
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
     }
   }

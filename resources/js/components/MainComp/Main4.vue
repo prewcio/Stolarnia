@@ -47,10 +47,10 @@
             "
           >
             <div class="product-img">
-              <img src="/img/testowe/main-4.jpg" alt="" />
+              <img src="/img/garderoba/garderoba-2.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
-              <h2>Kuchenne</h2>
+              <h2>Garderoby</h2>
             </div>
           </div>
         </swiper-slide>
@@ -70,10 +70,10 @@
             "
           >
             <div class="product-img">
-              <img src="/img/test/zdjecie-2.jpg" alt="" />
+              <img src="/img/Kuchnia_Stylowa/KuchniaStyl-3.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
-              <h2>Narożne</h2>
+              <h2>Kuchnie</h2>
             </div>
           </div>
         </swiper-slide>
@@ -93,10 +93,10 @@
             "
           >
             <div class="product-img">
-              <img src="/img/testowe/main-3.jpg" alt="" />
+              <img src="/img/lazienka/lazienka-1.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
-              <h2>Meble Łazienkowe</h2>
+              <h2>Łazienka</h2>
             </div>
           </div>
         </swiper-slide>
@@ -116,10 +116,10 @@
             "
           >
             <div class="product-img">
-              <img src="/img/testowe/main-2.jpg" alt="" />
+              <img src="/img/Domy/domy-4.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
-              <h2>Meble Kuchenne</h2>
+              <h2>Domy</h2>
             </div>
           </div>
         </swiper-slide>
@@ -139,10 +139,10 @@
             "
           >
             <div class="product-img">
-              <img src="/img/test/zdjecie-5.jpg" alt="" />
+              <img src="/img/lada/lada-1.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
-              <h2>Meble Domowe</h2>
+              <h2>Lady</h2>
             </div>
           </div>
         </swiper-slide>
@@ -162,10 +162,10 @@
             "
           >
             <div class="product-img">
-              <img src="/img/test/zdjecie-6.jpg" alt="" />
+              <img src="/img/standy_reklamowe/standy-7.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
-              <h2>Szafy</h2>
+              <h2>Standy</h2>
             </div>
           </div>
         </swiper-slide>
@@ -185,7 +185,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/testowe/main-1.jpg" alt="" />
+              <img src="/img/pokoj/pokoj-1.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Biurka</h2>
@@ -208,10 +208,56 @@
             "
           >
             <div class="product-img">
-              <img src="/img/test/zdjecie-8.jpg" alt="" />
+              <img src="/img/bank_bgz/bank-8.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
-              <h2>Meble Lakierowane</h2>
+              <h2>Banki</h2>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div
+            class="
+              flex
+              justify-center
+              flex-col
+              font-bold
+              p-3
+              shadow-md
+              text-center
+              cursor-pointer
+              bg-white
+              product-wd
+            "
+          >
+            <div class="product-img">
+              <img src="/img/pokoj/lakierowane.jpg" alt="" />
+            </div>
+            <div class="product-desc-2 pt-2">
+              <h2>Lakierowane</h2>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div
+            class="
+              flex
+              justify-center
+              flex-col
+              font-bold
+              p-3
+              shadow-md
+              text-center
+              cursor-pointer
+              bg-white
+              product-wd
+            "
+          >
+            <div class="product-img">
+              <img src="/img/pokoj/pokoj-11.jpg" alt="" />
+            </div>
+            <div class="product-desc-2 pt-2">
+              <h2>Łóżka</h2>
             </div>
           </div>
         </swiper-slide>
