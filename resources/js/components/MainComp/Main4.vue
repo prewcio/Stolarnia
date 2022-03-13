@@ -93,7 +93,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/łazienka/lazienka-1.jpg" alt="" />
+              <img src="/img/lazienka/lazienka-1.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Łazienka</h2>
