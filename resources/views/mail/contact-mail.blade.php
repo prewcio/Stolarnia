@@ -1,30 +1,24 @@
 @component('mail::subcopy')
 <style>
-    .message {
-        width: auto;
-        height: auto;
-        border: 1px solid #000;
-        flex-direction: column;
-    }
-    .main {
-        padding-left: 500px;
-        padding-right: 500px;
-        position: relative;
-        display: flex;
-        align-content: center;
-        justify-content: center;
-    }
+
 </style>
-<div class="main">
-    <div class="message">
-        <h1 style="font-size: 36px">Zapytanie z formularza kontaktowego</h1>
-        <h2>Mail od: {{ $content['from'] }}</h2>
-        <h2>[<a href="mailto:{{ $content['fromEmail'] }}">{{ $content['fromEmail'] }}</a>]</h2>
-        <h2>Treść:</h2>
-        <p>{{ $content['message'] }}</p>
-        <div>
-            <p>Wiadomość wysłana dnia {{ $content['sent'] }} o godz. {{ $content['sent_hr'] }}</p>
-        </div>
-    </div>
+<div style="margin:0;padding:0;table-layout: fixed;background-color:rgba(0,0,0,0)">
+    <center bgcolor="#000000" style="margin:0;padding:0;background-color:rgba(0,0,0,0)">
+        <table bgcolor="#15171e" style="background-color: #15171e;color:white;padding: 5px">
+            <tbody style="text-align: center">
+                <h1 style="font-size: 36px;color:white;text-align: center">Zapytanie z formularza kontaktowego</h1>
+                <h2 style="text-align: center;font-size:18px">Mail od:</h2>
+                <p style="text-align: center;font-size:18px">{{ $content['from'] }}<br>
+                    <span style="font-size:14px;transform: translateY(-5px)">
+                        [<a href="mailto:{{ $content['fromEmail'] }}">{{ $content['fromEmail'] }}</a>]
+                    </span>
+                </p>
+                <h2 style="text-align: center;font-size:18px">Treść:</h2>
+                <p style="text-align: center">{{ $content['message'] }}</p>
+                <p style="text-align: center;font-size: 10px;color: rgba(255,255,255,0.4)">Wiadomość wysłana dnia {{ $content['sent'] }} o godz. {{ $content['sent_hr'] }}</p>
+            </tbody>
+        </table>
+    </center>
 </div>
+
 @endcomponent
