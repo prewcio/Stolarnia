@@ -36,7 +36,7 @@ body {
     color: var(--color-black);
 }
 .active {
-    color: red !important;
+    color: var(--color-gold) !important;
 }
 .nav-menu li a:hover{
     color: var(--color-gold);
