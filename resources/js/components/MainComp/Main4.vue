@@ -18,7 +18,7 @@
           },
         }"
         :spaceBetween="30"
-        :slidesPerGroup="1"
+        :slidesPerGroup="2"
         :loop="true"
         :loopFillGroupWithBlank="true"
         :pagination="{
@@ -26,7 +26,7 @@
         }"
         :navigation="true"
         :autoplay="{
-          delay: 5000,
+          delay: 3500,
         }"
         :modules="modules"
         class="mySwiper"
@@ -164,7 +164,7 @@
             <div class="product-img">
               <img src="/img/test3.png" alt="" />
             </div>
-            <div class="product-desc pt-2">
+            <div class="product-desc-2 pt-2">
               <h2>Żabka</h2>
             </div>
           </div>

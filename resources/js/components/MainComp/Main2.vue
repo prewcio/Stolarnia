@@ -7,8 +7,6 @@
             flex
             justify-center
             flex-col
-            text-xl
-            md:text-2xl
             p-3
             shadow-md
             text-center
@@ -29,8 +27,6 @@
             flex
             justify-center
             flex-col
-            text-xl
-            md:text-2xl
             p-3
             shadow-md
             text-center
@@ -51,8 +47,6 @@
             flex
             justify-center
             flex-col
-            text-xl
-            md:text-2xl
             p-3
             shadow-md
             text-center
@@ -73,8 +67,6 @@
             flex
             justify-center
             flex-col
-            text-xl
-            md:text-2xl
             p-3
             shadow-md
             text-center
