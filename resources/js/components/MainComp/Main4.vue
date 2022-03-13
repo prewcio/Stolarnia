@@ -8,7 +8,7 @@
 
     <div class="slider">
       <swiper
-        :slidesPerView="4"
+        :slidesPerView="3"
         :spaceBetween="30"
         :slidesPerGroup="1"
         :loop="true"
@@ -18,7 +18,7 @@
         }"
         :navigation="true"
         :autoplay="{
-            delay: 5000
+          delay: 5000,
         }"
         :modules="modules"
         class="mySwiper"
@@ -30,8 +30,6 @@
               justify-center
               flex-col
               font-bold
-              text-md
-              md:text-lg
               p-3
               shadow-md
               text-center
@@ -55,8 +53,6 @@
               justify-center
               flex-col
               font-bold
-              text-md
-              md:text-lg
               p-3
               shadow-md
               text-center
@@ -80,8 +76,6 @@
               justify-center
               flex-col
               font-bold
-              text-md
-              md:text-lg
               p-3
               shadow-md
               text-center
@@ -105,8 +99,6 @@
               justify-center
               flex-col
               font-bold
-              text-md
-              md:text-lg
               p-3
               shadow-md
               text-center
@@ -130,8 +122,6 @@
               justify-center
               flex-col
               font-bold
-              text-md
-              md:text-lg
               p-3
               shadow-md
               text-center
@@ -155,8 +145,6 @@
               justify-center
               flex-col
               font-bold
-              text-md
-              md:text-lg
               p-3
               shadow-md
               text-center
@@ -180,8 +168,6 @@
               justify-center
               flex-col
               font-bold
-              text-md
-              md:text-lg
               p-3
               shadow-md
               text-center
@@ -205,8 +191,6 @@
               justify-center
               flex-col
               font-bold
-              text-md
-              md:text-lg
               p-3
               shadow-md
               text-center
@@ -224,7 +208,6 @@
           </div>
         </swiper-slide>
       </swiper>
-
     </div>
   </div>
 </template>
@@ -244,15 +227,15 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default {
-    components: {
-        Swiper,
-        SwiperSlide,
-    },
-    setup() {
-        return {
-            modules: [Autoplay, Pagination, Navigation],
-        };
-    },
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  setup() {
+    return {
+      modules: [Autoplay, Pagination, Navigation],
+    };
+  },
 };
 </script>
 

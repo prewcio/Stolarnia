@@ -65,41 +65,6 @@ import main_c5 from './components/MainComp/Main5.vue';
 
 //Components
 import lazy_img from './components/comps/LazyImage.vue';
-
-<<<<<<< HEAD
-// const files = require.context('./', true, /\.vue$/i)
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-
-//Example
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-
-//Sites
-Vue.component('ftr', require('./components/includes/Footer.vue').default);
-Vue.component('navi', require('./components/includes/Navi.vue').default);
-Vue.component('mainy', require('./components/Main.vue').default);
-Vue.component('socials', require('./components/Socials.vue').default);
-Vue.component('contact', require('./components/Contact').default);
-
-//Local Components
-Vue.component('main_c1', require('./components/MainComp/Main.vue').default);
-Vue.component('main_c2', require('./components/MainComp/Main2.vue').default);
-Vue.component('main_c3', require('./components/MainComp/Main3.vue').default);
-Vue.component('main_c4', require('./components/MainComp/Main4.vue').default);
-Vue.component('main_c5', require('./components/MainComp/Main5.vue').default);
-
-//Components Global
-Vue.component('lazy_img', require('./components/comps/LazyImage').default);
-
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
-const app = new Vue({
-    el: '#app',
-});
-=======
 const Vue = createApp({
     components: {
         ftr,
@@ -116,21 +81,3 @@ const Vue = createApp({
     }
 })
 Vue.mount("#app");
-// //Sites
-// Vue
-//     .component('ftr', ftr)
-//     .component('navi', navi)
-//     .component('mainy', Main)
-//     .component('socials', socials)
-//     .component('contact', contact)
-//
-// //Local Components
-//     .component('main_c1', main1)
-//     .component('main_c2', main2)
-//     .component('main_c3', main3)
-//     .component('main_c4', main4)
-//     .component('main_c5', main5)
-//
-// //Components Global
-//     .component('lazy_img',lazy_img);
->>>>>>> a10809349e618314be7794749a22d307a636a101
