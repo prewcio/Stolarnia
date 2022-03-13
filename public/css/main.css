@@ -185,6 +185,26 @@
     color: var(--color-white);
     padding: 10px 20px;
 }
+.btn-top {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50%;
+    z-index: 999;
+    background: var(--color-gray);
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    transition: 0s visibility, 0.5s opacity;
+}
+.btn-top i {
+    font-size: 24px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    color: var(--color-white);
+    transform: translateY(-50%) translateX(-50%);
+}
 @media only screen and (max-width: 768px) {
     .line-1 {
         width: 80px;
