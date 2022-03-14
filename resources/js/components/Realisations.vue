@@ -1,6 +1,6 @@
 <template>
   <div class="container-realizations">
-    <div class="container row">
+    <div class="container row" id="bp">
       <h1>BP</h1>
       <div class="column">
         <img src="/img/01bp/bp-7.jpg" @click="showMultiple(4)" />
@@ -18,7 +18,7 @@
         <img src="/img/01bp/bp-10.jpg" @click="showMultiple(0)" />
       </div>
     </div>
-    <div class="container row">
+    <div class="container row" id="bank">
       <h1>Bank</h1>
       <div class="column">
         <lazy-image
@@ -128,7 +128,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row">
+    <div class="container row" id="biblioteka">
       <h1>Biblioteka</h1>
       <div class="column">
         <lazy-image
@@ -175,7 +175,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row">
+    <div class="container row" id="domy">
       <h1>Domy</h1>
       <div class="column">
         <lazy-image
@@ -303,7 +303,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row">
+    <div class="container row" id="garderoba">
       <h1>Garderoba</h1>
       <div class="column">
         <lazy-image
@@ -328,7 +328,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row">
+    <div class="container row" id="kuchnieStyl">
       <h1>Kuchnie Stylowe</h1>
       <div class="column">
         <lazy-image
@@ -483,7 +483,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row">
+    <div class="container row" id="kuchnie">
       <h1>Kuchnie</h1>
       <div class="column">
         <lazy-image
@@ -602,7 +602,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row">
+    <div class="container row" id="lada">
       <h1>Lada</h1>
       <div class="column">
         <lazy-image
@@ -685,7 +685,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row">
+    <div class="container row" id="lazienki">
       <h1>Łazienki</h1>
       <div class="column">
         <lazy-image
@@ -759,7 +759,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row">
+    <div class="container row" id="metalowe">
       <h1>Meble Metalowe</h1>
       <div class="column">
         <lazy-image
@@ -806,7 +806,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row">
+    <div class="container row" id="miniakad">
       <h1>Mini Akademik</h1>
       <div class="column">
         <lazy-image
@@ -1033,7 +1033,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row">
+    <div class="container row" id="pokoje">
       <h1>Pokoje</h1>
       <div class="column">
         <lazy-image
@@ -1251,7 +1251,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row">
+    <div class="container row" id="standy">
       <h1>Standy Reklamowe</h1>
       <div class="column">
         <lazy-image
@@ -1451,7 +1451,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row">
+    <div class="container row" id="szafy">
       <h1>Szafy i Szafki</h1>
       <div class="column">
         <lazy-image
