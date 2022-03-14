@@ -6,6 +6,9 @@ import socials from './components/Socials.vue';
 import contact from './components/Contact.vue';
 import realisations from './components/Realisations.vue';
 import about from './components/About.vue';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 //Imports Local Comps
 import main_c1 from './components/MainComp/Main.vue';

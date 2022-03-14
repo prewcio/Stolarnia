@@ -228,6 +228,12 @@
     color: var(--color-white);
     transform: translateY(-50%) translateX(-50%);
 }
+.gold a:hover {
+    color: var(--color-gold);
+}
+.slider a:hover {
+    color: var(--color-gold);
+}
 @media only screen and (max-width: 768px) {
     .line-1 {
         width: 80px;
