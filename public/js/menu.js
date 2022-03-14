@@ -31,12 +31,17 @@ if(menu.length) {
 }
 
 var btntop = document.getElementById("btn-top");
+var btntoplbl = document.getElementById("btn-top-lbl");
 window.onscroll = function () { scrollFunction() };
 
 $(document).ready( function (){
     btntop.style.display = "block";
     btntop.style.visibility = "hidden";
     btntop.style.opacity = "0";
+    btntoplbl.style.display = "block";
+    btntoplbl.style.visibility = "hidden";
+    btntoplbl.style.opacity = "0";
+
 })
 
 $('#btn-top').click(function (){
@@ -50,10 +55,14 @@ function scrollFunction() {
     if (window.scrollY) {
         btntop.style.visibility = "visible";
         btntop.style.opacity = "1";
+        btntoplbl.style.visibility = "visible";
+        btntoplbl.style.opacity = "1";
     } else {
+        btntoplbl.style.opacity="0";
         btntop.style.opacity = "0";
         setTimeout(function (){
             btntop.style.visibility = "hidden";
+            btntoplbl.style.visibility = "hidden";
         },500)
     }
 }
