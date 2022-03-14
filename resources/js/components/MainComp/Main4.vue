@@ -47,7 +47,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/garderoba/garderoba-2.jpg" alt="" />
+              <img src="/img/05garderoba/garderoba-2.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Garderoby</h2>
@@ -70,7 +70,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/Kuchnia_Stylowa/KuchniaStyl-3.jpg" alt="" />
+              <img src="/img/06Kuchnia_Stylowa/KuchniaStyl-3.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Kuchnie</h2>
@@ -93,7 +93,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/lazienka/lazienka-1.jpg" alt="" />
+              <img src="/img/10lazienka/lazienka-1.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Łazienka</h2>
@@ -116,7 +116,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/Domy/domy-4.jpg" alt="" />
+              <img src="/img/04Domy/domy-4.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Domy</h2>
@@ -139,7 +139,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/lada/lada-1.jpg" alt="" />
+              <img src="/img/09lada/lada-1.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Lady</h2>
@@ -162,7 +162,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/standy_reklamowe/standy-7.jpg" alt="" />
+              <img src="/img/14standy_reklamowe/standy-7.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Standy</h2>
@@ -185,7 +185,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/pokoj/pokoj-1.jpg" alt="" />
+              <img src="/img/13pokoj/pokoj-1.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Biurka</h2>
@@ -208,7 +208,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/bank_bgz/bank-8.jpg" alt="" />
+              <img src="/img/02bank_bgz/bank-8.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Banki</h2>
@@ -231,7 +231,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/pokoj/lakierowane.jpg" alt="" />
+              <img src="/img/13pokoj/lakierowane.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Lakierowane</h2>
@@ -254,7 +254,7 @@
             "
           >
             <div class="product-img">
-              <img src="/img/pokoj/pokoj-11.jpg" alt="" />
+              <img src="/img/13pokoj/pokoj-11.jpg" alt="" />
             </div>
             <div class="product-desc-2 pt-2">
               <h2>Łóżka</h2>
