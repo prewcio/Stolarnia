@@ -1,5 +1,79 @@
 <template>
   <div class="container row">
+    <h1>BP</h1>
+    <div class="column">
+      <lazy-image
+        initial-image="/img/load.gif"
+        final-image="/img/bp/bp-7.jpg"
+        alt="Test1"
+        :blur-amount="2"
+        class="klasa"
+        @click="showMultiple(15)"
+      >
+      </lazy-image>
+      <lazy-image
+        initial-image="/img/load.gif"
+        final-image="/img/bp/bp-11.jpg"
+        alt="Test1"
+        :blur-amount="2"
+        class="klasa"
+        @click="showMultiple(16)"
+      >
+      </lazy-image>
+    </div>
+    <div class="column">
+      <lazy-image
+        initial-image="/img/load.gif"
+        final-image="/img/bp/bp-8.jpg"
+        alt="Drewno"
+        :blur-amount="2"
+        class="klasa"
+        @click="showMultiple(17)"
+      >
+      </lazy-image>
+      <lazy-image
+        initial-image="/img/load.gif"
+        final-image="/img/bp/bp-12.jpg"
+        alt="Test1"
+        :blur-amount="2"
+        class="klasa"
+        @click="showMultiple(18)"
+      >
+      </lazy-image>
+    </div>
+    <div class="column">
+      <lazy-image
+        initial-image="/img/load.gif"
+        final-image="/img/bp/bp-9.jpg"
+        alt="Test1"
+        :blur-amount="2"
+        class="klasa"
+        @click="showMultiple(19)"
+      >
+      </lazy-image>
+      <lazy-image
+        initial-image="/img/load.gif"
+        final-image="/img/bp/bp-13.jpg"
+        alt="Test1"
+        :blur-amount="2"
+        class="klasa"
+        @click="showMultiple(20)"
+      >
+      </lazy-image>
+    </div>
+    <div class="column">
+      <lazy-image
+        initial-image="/img/load.gif"
+        final-image="/img/bp/bp-10.jpg"
+        alt="Test1"
+        :blur-amount="2"
+        class="klasa"
+        @click="showMultiple(21)"
+      >
+      </lazy-image>
+    </div>
+  </div>
+  <div class="container row">
     <h1>Bank</h1>
     <div class="column">
       <lazy-image
@@ -152,80 +226,6 @@
         :blur-amount="2"
         class="klasa"
         @click="showMultiple(14)"
-      >
-      </lazy-image>
-    </div>
-  </div>
-  <div class="container row">
-    <h1>BP</h1>
-    <div class="column">
-      <lazy-image
-        initial-image="/img/load.gif"
-        final-image="/img/bp/bp-7.jpg"
-        alt="Test1"
-        :blur-amount="2"
-        class="klasa"
-        @click="showMultiple(15)"
-      >
-      </lazy-image>
-      <lazy-image
-        initial-image="/img/load.gif"
-        final-image="/img/bp/bp-11.jpg"
-        alt="Test1"
-        :blur-amount="2"
-        class="klasa"
-        @click="showMultiple(16)"
-      >
-      </lazy-image>
-    </div>
-    <div class="column">
-      <lazy-image
-        initial-image="/img/load.gif"
-        final-image="/img/bp/bp-8.jpg"
-        alt="Drewno"
-        :blur-amount="2"
-        class="klasa"
-        @click="showMultiple(17)"
-      >
-      </lazy-image>
-      <lazy-image
-        initial-image="/img/load.gif"
-        final-image="/img/bp/bp-12.jpg"
-        alt="Test1"
-        :blur-amount="2"
-        class="klasa"
-        @click="showMultiple(18)"
-      >
-      </lazy-image>
-    </div>
-    <div class="column">
-      <lazy-image
-        initial-image="/img/load.gif"
-        final-image="/img/bp/bp-9.jpg"
-        alt="Test1"
-        :blur-amount="2"
-        class="klasa"
-        @click="showMultiple(19)"
-      >
-      </lazy-image>
-      <lazy-image
-        initial-image="/img/load.gif"
-        final-image="/img/bp/bp-13.jpg"
-        alt="Test1"
-        :blur-amount="2"
-        class="klasa"
-        @click="showMultiple(20)"
-      >
-      </lazy-image>
-    </div>
-    <div class="column">
-      <lazy-image
-        initial-image="/img/load.gif"
-        final-image="/img/bp/bp-10.jpg"
-        alt="Test1"
-        :blur-amount="2"
-        class="klasa"
-        @click="showMultiple(21)"
       >
       </lazy-image>
     </div>
@@ -848,15 +848,6 @@
         @click="showMultiple(82)"
       >
       </lazy-image>
-      <vue-easy-lightbox
-        scrollDisabled
-        escDisabled
-        moveDisabled
-        :visible="visible"
-        :imgs="imgs"
-        :index="index"
-        @hide="handleHide"
-      ></vue-easy-lightbox>
     </div>
     <div class="column">
       <lazy-image
@@ -1381,22 +1372,22 @@
       >
       </lazy-image>
     </div>
-      <vue-easy-lightbox
-          scrollDisabled
-          escDisabled
-          moveDisabled
-          :visible="visible"
-          :imgs="imgs"
-          :index="index"
-          @hide="handleHide"
-      ></vue-easy-lightbox>
+    <vue-easy-lightbox
+      scrollDisabled
+      escDisabled
+      moveDisabled
+      :visible="visible"
+      :imgs="imgs"
+      :index="index"
+      @hide="handleHide"
+    ></vue-easy-lightbox>
   </div>
 </template>
 
 <script>
 import VueEasyLightbox from "vue-easy-lightbox";
 import LazyImage from "./comps/LazyImage";
-import axios from 'axios';
+import axios from "axios";
 
 export default {
   components: {
@@ -1410,26 +1401,26 @@ export default {
       index: 0, // default: 0
     };
   },
-    mounted() {
-        this.images();
-    },
-    methods: {
+  mounted() {
+    this.images();
+  },
+  methods: {
     images: function () {
-        axios.get("/api/images")
-            .then((response) => {
-                this.resp = response.data.data;
-                for(let i = 0; i<this.resp.length;i++){
-                    this.respImages = this.resp[i].images;
-                    for(let j = 0;j<this.respImages.length;j++){
-                        // console.log(this.resp[i].realisation+"/"+this.respImages[j]);
-                        this.imgs.push('/img/'+this.resp[i].realisation+'/'+this.respImages[j]);
-                    }
-                }
-                // console.log(this.resp);
-            });
+      axios.get("/api/images").then((response) => {
+        this.resp = response.data.data;
+        for (let i = 0; i < this.resp.length; i++) {
+          this.respImages = this.resp[i].images;
+          for (let j = 0; j < this.respImages.length; j++) {
+            console.log(this.resp[i].realisation + "/" + this.respImages[j]);
+            this.imgs.push(
+              "/img/" + this.resp[i].realisation + "/" + this.respImages[j]
+            );
+          }
+        }
+        // console.log(this.resp);
+      });
     },
     showMultiple(index) {
-
       // allow mixing
 
       this.index = index; // index of imgList
