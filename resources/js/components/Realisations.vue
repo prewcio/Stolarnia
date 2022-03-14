@@ -5,99 +5,36 @@
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/bp/bp-7.jpg"
+          final-image="/img/01bp/bp-7.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(15)"
+          @click="showMultiple(4)"
         >
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/bp/bp-11.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(16)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/bp/bp-8.jpg"
-          alt="Drewno"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(17)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/bp/bp-12.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(18)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/bp/bp-9.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(19)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/bp/bp-13.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(20)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/bp/bp-10.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(21)"
-        >
-        </lazy-image>
-      </div>
-    </div>
-    <div class="container row">
-      <h1>Bank</h1>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/bank_bgz/bank-0.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(0)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/bank_bgz/bank-4.jpg"
+          final-image="/img/01bp/bp-11.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
           @click="showMultiple(1)"
         >
         </lazy-image>
+      </div>
+      <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/bank_bgz/bank-8.jpg"
+          final-image="/img/01bp/bp-8.jpg"
+          alt="Drewno"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(5)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/01bp/bp-12.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
@@ -108,36 +45,7 @@
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/bank_bgz/bank-1.jpg"
-          alt="Drewno"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(3)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/bank_bgz/bank-5.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(4)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/bank_bgz/bank-9.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(5)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/bank_bgz/bank-2.jpg"
+          final-image="/img/01bp/bp-9.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
@@ -146,7 +54,32 @@
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/bank_bgz/bank-6.jpg"
+          final-image="/img/01bp/bp-13.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(3)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/01bp/bp-10.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(0)"
+        >
+        </lazy-image>
+      </div>
+    </div>
+    <div class="container row">
+      <h1>Bank</h1>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/02bank_bgz/bank-0.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
@@ -155,31 +88,98 @@
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/bank_bgz/bank-10.jpg"
+          final-image="/img/02bank_bgz/bank-4.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(8)"
+          @click="showMultiple(12)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/02bank_bgz/bank-8.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(16)"
         >
         </lazy-image>
       </div>
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/bank_bgz/bank-3.jpg"
+          final-image="/img/02bank_bgz/bank-1.jpg"
+          alt="Drewno"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(8)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/02bank_bgz/bank-5.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(13)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/02bank_bgz/bank-9.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(17)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/02bank_bgz/bank-2.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(10)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/02bank_bgz/bank-6.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(14)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/02bank_bgz/bank-10.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
           @click="showMultiple(9)"
         >
         </lazy-image>
+      </div>
+      <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/bank_bgz/bank-7.jpg"
+          final-image="/img/02bank_bgz/bank-3.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(10)"
+          @click="showMultiple(11)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/02bank_bgz/bank-7.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(15)"
         >
         </lazy-image>
       </div>
@@ -189,44 +189,44 @@
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/biblioteka/biblioteka-1.jpg"
+          final-image="/img/03biblioteka/biblioteka-1.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(11)"
+          @click="showMultiple(18)"
         >
         </lazy-image>
       </div>
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/biblioteka/biblioteka-2.jpg"
+          final-image="/img/03biblioteka/biblioteka-2.jpg"
           alt="Drewno"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(12)"
+          @click="showMultiple(19)"
         >
         </lazy-image>
       </div>
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/biblioteka/biblioteka-3.jpg"
+          final-image="/img/03biblioteka/biblioteka-3.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(13)"
+          @click="showMultiple(20)"
         >
         </lazy-image>
       </div>
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/biblioteka/biblioteka-4.jpg"
+          final-image="/img/03biblioteka/biblioteka-4.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(14)"
+          @click="showMultiple(21)"
         >
         </lazy-image>
       </div>
@@ -236,16 +236,7 @@
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/domy/domy-1.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(22)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/domy/domy-5.jpg"
+          final-image="/img/04domy/domy-1.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
@@ -254,117 +245,16 @@
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/domy/domy-9.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(24)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/domy/domy-2.jpg"
-          alt="Drewno"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(25)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/domy/domy-6.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(26)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/domy/domy-10.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(27)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/domy/domy-3.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(28)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/domy/domy-11.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(29)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/domy/domy-7.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(30)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/domy/domy-12.jpg"
+          final-image="/img/04domy/domy-5.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
           @click="showMultiple(31)"
         >
         </lazy-image>
-      </div>
-      <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/domy/domy-4.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(32)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/domy/domy-8.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(33)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/domy/domy-13.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(34)"
-        >
-        </lazy-image>
-      </div>
-    </div>
-    <div class="container row">
-      <h1>Garderoba</h1>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/garderoba/garderoba-1.jpg"
+          final-image="/img/04domy/domy-9.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
@@ -375,11 +265,121 @@
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/garderoba/garderoba-2.jpg"
+          final-image="/img/04domy/domy-2.jpg"
+          alt="Drewno"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(28)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/04domy/domy-6.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(26)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/04domy/domy-10.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(24)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/04domy/domy-3.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(29)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/04domy/domy-11.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(25)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/04domy/domy-7.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(33)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/04domy/domy-12.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(26)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/04domy/domy-4.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(30)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/04domy/domy-8.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(34)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/04domy/domy-13.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(27)"
+        >
+        </lazy-image>
+      </div>
+    </div>
+    <div class="container row">
+      <h1>Garderoba</h1>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/05garderoba/garderoba-1.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
           @click="showMultiple(36)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/05garderoba/garderoba-2.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(37)"
         >
         </lazy-image>
       </div>
@@ -389,16 +389,7 @@
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-1.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(37)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-5.jpg"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-1.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
@@ -407,66 +398,37 @@
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-9.jpg"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-5.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(39)"
+          @click="showMultiple(48)"
         >
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-12.jpg"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-9.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(40)"
+          @click="showMultiple(52)"
         >
         </lazy-image>
-      </div>
-      <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-2.jpg"
-          alt="Drewno"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-12.jpg"
+          alt="Test1"
           :blur-amount="2"
           class="klasa"
           @click="showMultiple(41)"
         >
         </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-6.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(42)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-10.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(43)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-13.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(44)"
-        >
-        </lazy-image>
       </div>
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-3.jpg"
-          alt="Test1"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-2.jpg"
+          alt="Drewno"
           :blur-amount="2"
           class="klasa"
           @click="showMultiple(45)"
@@ -474,36 +436,7 @@
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-7.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(46)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-11.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(47)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-14.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(48)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-4.jpg"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-6.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
@@ -512,7 +445,36 @@
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-8.jpg"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-10.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(39)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-13.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(42)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-3.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(46)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-7.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
@@ -521,7 +483,36 @@
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-12.jpg"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-11.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(40)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-14.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(43)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-4.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(47)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-8.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
@@ -530,11 +521,20 @@
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/Kuchnia_Stylowa/KuchniaStyl-15.jpg"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-12.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(52)"
+          @click="showMultiple(41)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/06kuchnia_stylowa/KuchniaStyl-15.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(44)"
         >
         </lazy-image>
       </div>
@@ -544,7 +544,7 @@
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/kuchnie/kuchnie-1.jpg"
+          final-image="/img/07kuchnie/kuchnie-1.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
@@ -553,16 +553,74 @@
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/kuchnie/kuchnie-5.jpg"
+          final-image="/img/07kuchnie/kuchnie-5.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(86)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/07kuchnie/kuchnie-9.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(90)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/07kuchnie/kuchnie-2.jpg"
+          alt="Drewno"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(64)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/07kuchnie/kuchnie-6.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(87)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/07kuchnie/kuchnie-10.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
           @click="showMultiple(54)"
         >
         </lazy-image>
+      </div>
+      <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/kuchnie/kuchnie-9.jpg"
+          final-image="/img/07kuchnie/kuchnie-3.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(75)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/07kuchnie/kuchnie-7.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(88)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/07kuchnie/kuchnie-11.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
@@ -573,87 +631,29 @@
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/kuchnie/kuchnie-2.jpg"
-          alt="Drewno"
+          final-image="/img/07kuchnie/kuchnie-4.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(85)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/07kuchnie/kuchnie-8.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(89)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/07kuchnie/kuchnie-12.jpg"
+          alt="Test1"
           :blur-amount="2"
           class="klasa"
           @click="showMultiple(56)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/kuchnie/kuchnie-6.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(57)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/kuchnie/kuchnie-10.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(58)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/kuchnie/kuchnie-3.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(59)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/kuchnie/kuchnie-7.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(60)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/kuchnie/kuchnie-11.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(61)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/kuchnie/kuchnie-4.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(62)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/kuchnie/kuchnie-8.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(63)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/kuchnie/kuchnie-12.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(64)"
         >
         </lazy-image>
       </div>
@@ -663,80 +663,80 @@
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/lada/lada-1.jpg"
+          final-image="/img/09lada/lada-1.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(65)"
+          @click="showMultiple(101)"
         >
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/lada/lada-5.jpg"
+          final-image="/img/09lada/lada-5.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(66)"
+          @click="showMultiple(105)"
         >
         </lazy-image>
       </div>
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/lada/lada-2.jpg"
+          final-image="/img/09lada/lada-2.jpg"
           alt="Drewno"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(67)"
+          @click="showMultiple(102)"
         >
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/lada/lada-6.jpg"
+          final-image="/img/09lada/lada-6.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(68)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/lada/lada-3.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(69)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/lada/lada-7.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(70)"
+          @click="showMultiple(106)"
         >
         </lazy-image>
       </div>
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/lada/lada-4.jpg"
+          final-image="/img/09lada/lada-3.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(71)"
+          @click="showMultiple(103)"
         >
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/lada/lada-8.jpg"
+          final-image="/img/09lada/lada-7.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(72)"
+          @click="showMultiple(107)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/09lada/lada-4.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(104)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/09lada/lada-8.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(108)"
         >
         </lazy-image>
       </div>
@@ -746,384 +746,27 @@
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/lazienka/lazienka-1.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(73)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/lazienka/lazienka-5.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(74)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/lazienka/lazienka-2.jpg"
-          alt="Drewno"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(75)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/lazienka/lazienka-6.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(76)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/lazienka/lazienka-3.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(77)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/lazienka/lazienka-7.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(78)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/lazienka/lazienka-4.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(79)"
-        >
-        </lazy-image>
-      </div>
-    </div>
-    <div class="container row">
-      <h1>Meble Metalowe</h1>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/metalowe/metalowe-1.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(80)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/metalowe/metalowe-2.jpg"
-          alt="Drewno"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(81)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/metalowe/metalowe-3.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(82)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/metalowe/metalowe-4.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(83)"
-        >
-        </lazy-image>
-      </div>
-    </div>
-    <div class="container row">
-      <h1>Mini Akademik</h1>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-1.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(84)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-5.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(85)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-9.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(86)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-13.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(87)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-17.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(88)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-21.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(89)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-2.jpg"
-          alt="Drewno"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(90)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-6.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(91)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-10.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(92)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-14.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(93)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-18.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(94)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-22.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(95)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-3.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(96)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-7.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(97)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-11.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(98)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-15.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(99)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-19.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(100)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-23.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(101)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-4.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(102)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-8.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(103)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-12.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(104)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-16.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(105)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-20.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(106)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/mini_akademik/miniakad-24.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(107)"
-        >
-        </lazy-image>
-      </div>
-    </div>
-    <div class="container row">
-      <h1>Pokoje</h1>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/pokoj/pokoj-1.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(108)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/pokoj/pokoj-5.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(109)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/pokoj/pokoj-9.jpg"
+          final-image="/img/10lazienka/lazienka-1.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
           @click="showMultiple(110)"
         >
         </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/10lazienka/lazienka-5.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(114)"
+        >
+        </lazy-image>
       </div>
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/pokoj/pokoj-2.jpg"
+          final-image="/img/10lazienka/lazienka-2.jpg"
           alt="Drewno"
           :blur-amount="2"
           class="klasa"
@@ -1132,7 +775,18 @@
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/pokoj/pokoj-6.jpg"
+          final-image="/img/10lazienka/lazienka-6.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(115)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/10lazienka/lazienka-3.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
@@ -1141,36 +795,7 @@
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/pokoj/pokoj-10.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(113)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/pokoj/pokoj-3.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(114)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/pokoj/pokoj-7.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(115)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/pokoj/pokoj-11.jpg"
+          final-image="/img/10lazienka/lazienka-7.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
@@ -1181,29 +806,404 @@
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/pokoj/pokoj-4.jpg"
+          final-image="/img/10lazienka/lazienka-4.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(113)"
+        >
+        </lazy-image>
+      </div>
+    </div>
+    <div class="container row">
+      <h1>Meble Metalowe</h1>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/11metalowe/metalowe-1.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
           @click="showMultiple(117)"
         >
         </lazy-image>
+      </div>
+      <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/pokoj/pokoj-8.jpg"
-          alt="Test1"
+          final-image="/img/11metalowe/metalowe-2.jpg"
+          alt="Drewno"
           :blur-amount="2"
           class="klasa"
           @click="showMultiple(118)"
         >
         </lazy-image>
+      </div>
+      <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/pokoj/pokoj-12.jpg"
+          final-image="/img/11metalowe/metalowe-3.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
           @click="showMultiple(119)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/11metalowe/metalowe-4.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(120)"
+        >
+        </lazy-image>
+      </div>
+    </div>
+    <div class="container row">
+      <h1>Mini Akademik</h1>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-1.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(120)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-5.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(156)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-9.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(181)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-13.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(126)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-17.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(130)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-21.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(135)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-2.jpg"
+          alt="Drewno"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(133)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-6.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(157)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-10.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(123)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-14.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(127)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-18.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(131)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-22.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(136)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-3.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(144)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-7.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(167)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-11.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(124)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-15.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(128)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-19.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(132)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-23.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(137)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-4.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(155)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-8.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(178)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-12.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(125)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-16.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(129)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-20.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(134)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/12mini_akademik/miniakad-24.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(138)"
+        >
+        </lazy-image>
+      </div>
+    </div>
+    <div class="container row">
+      <h1>Pokoje</h1>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/13pokoj/pokoj-1.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(192)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/13pokoj/pokoj-5.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(200)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/13pokoj/pokoj-9.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(204)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/13pokoj/pokoj-2.jpg"
+          alt="Drewno"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(197)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/13pokoj/pokoj-6.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(201)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/13pokoj/pokoj-10.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(193)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/13pokoj/pokoj-3.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(198)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/13pokoj/pokoj-7.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(202)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/13pokoj/pokoj-11.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(194)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/13pokoj/pokoj-4.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(199)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/13pokoj/pokoj-8.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(203)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/13pokoj/pokoj-12.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(195)"
         >
         </lazy-image>
       </div>
@@ -1213,116 +1213,116 @@
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/standy_reklamowe/standy-1.jpg"
+          final-image="/img/14standy_reklamowe/standy-1.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(120)"
+          @click="showMultiple(206)"
         >
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/standy_reklamowe/standy-5.jpg"
+          final-image="/img/14standy_reklamowe/standy-5.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(121)"
+          @click="showMultiple(222)"
         >
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/standy_reklamowe/standy-9.jpg"
+          final-image="/img/14standy_reklamowe/standy-9.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(122)"
+          @click="showMultiple(226)"
         >
         </lazy-image>
       </div>
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/standy_reklamowe/standy-2.jpg"
+          final-image="/img/14standy_reklamowe/standy-2.jpg"
           alt="Drewno"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(123)"
+          @click="showMultiple(217)"
         >
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/standy_reklamowe/standy-6.jpg"
+          final-image="/img/14standy_reklamowe/standy-6.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(124)"
+          @click="showMultiple(223)"
         >
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/standy_reklamowe/standy-10.jpg"
+          final-image="/img/14standy_reklamowe/standy-10.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(125)"
-        >
-        </lazy-image>
-      </div>
-      <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/standy_reklamowe/standy-3.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(126)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/standy_reklamowe/standy-7.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(127)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/standy_reklamowe/standy-11.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(128)"
+          @click="showMultiple(207)"
         >
         </lazy-image>
       </div>
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/standy_reklamowe/standy-4.jpg"
+          final-image="/img/14standy_reklamowe/standy-3.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(129)"
+          @click="showMultiple(220)"
         >
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/standy_reklamowe/standy-8.jpg"
+          final-image="/img/14standy_reklamowe/standy-7.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(130)"
+          @click="showMultiple(224)"
         >
         </lazy-image>
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/standy_reklamowe/standy-12.jpg"
+          final-image="/img/14standy_reklamowe/standy-11.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(131)"
+          @click="showMultiple(208)"
+        >
+        </lazy-image>
+      </div>
+      <div class="column">
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/14standy_reklamowe/standy-4.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(221)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/14standy_reklamowe/standy-8.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(225)"
+        >
+        </lazy-image>
+        <lazy-image
+          initial-image="/img/load.gif"
+          final-image="/img/14standy_reklamowe/standy-12.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(209)"
         >
         </lazy-image>
       </div>
@@ -1332,44 +1332,44 @@
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/szafy_szafki/SzaftISzafki-1.jpg"
+          final-image="/img/15szafy_szafki/SzaftISzafki-1.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(132)"
+          @click="showMultiple(227)"
         >
         </lazy-image>
       </div>
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/szafy_szafki/SzaftISzafki-2.jpg"
+          final-image="/img/15szafy_szafki/SzaftISzafki-2.jpg"
           alt="Drewno"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(133)"
+          @click="showMultiple(238)"
         >
         </lazy-image>
       </div>
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/szafy_szafki/SzaftISzafki-3.jpg"
+          final-image="/img/15szafy_szafki/SzaftISzafki-3.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(134)"
+          @click="showMultiple(249)"
         >
         </lazy-image>
       </div>
       <div class="column">
         <lazy-image
           initial-image="/img/load.gif"
-          final-image="/img/szafy_szafki/SzaftISzafki-4.jpg"
+          final-image="/img/15szafy_szafki/SzaftISzafki-4.jpg"
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(135)"
+          @click="showMultiple(258)"
         >
         </lazy-image>
       </div>
@@ -1410,10 +1410,12 @@ export default {
     images: function () {
       axios.get("/api/images").then((response) => {
         this.resp = response.data.data;
+        let ok = 0;
         for (let i = 0; i < this.resp.length; i++) {
           this.respImages = this.resp[i].images;
           for (let j = 0; j < this.respImages.length; j++) {
-            console.log(this.resp[i].realisation + "/" + this.respImages[j]);
+            console.log(ok+". "+this.resp[i].realisation + "/" + this.respImages[j]);
+            ok++;
             this.imgs.push(
               "/img/" + this.resp[i].realisation + "/" + this.respImages[j]
             );
