@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 <link rel="stylesheet" href="{{ asset('css/realizations.css') }}">
 <link rel="stylesheet" href="{{ asset('css/about.css') }}">
+<link rel="stylesheet" href="{{ asset('css/socials.css') }}">
 <link rel="shortcut icon" type="image/jpg" href="{{ asset('img/logo.png') }}">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 <title>ANMAR-MEBLE S.C</title>
