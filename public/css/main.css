@@ -185,6 +185,16 @@
     color: var(--color-white);
     padding: 10px 20px;
 }
+.contact-form h1 {
+    font-size: 3em;
+}
+.contact-form h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.contact-form p {
+    font-size: 1.2em;
+}
 .btn-top {
     position: fixed;
     height: 40px;
@@ -297,6 +307,15 @@
     }
     iframe {
         height: 300px;
+    }
+    .contact-form h1 {
+        font-size: 2em;
+    }
+    .contact-form h2 {
+        font-size: 1.1em;
+    }
+    .contact-form p {
+        font-size: 1.1em;
     }
 }
 @media only screen and (max-width: 1024px) {

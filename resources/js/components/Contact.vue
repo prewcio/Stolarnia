@@ -2,7 +2,7 @@
   <div class="container">
     <div class="contact-form my-4 flex flex-col items-center md:flex-row">
       <div class="text-center basis-full md:basis-1/2">
-        <h1 class="font-bold text-2xl mb-4">KONTAKT</h1>
+        <h1 class="font-bold mb-4">KONTAKT</h1>
         <h2>ANMAR-MEBLE S.C. - ZAKŁAD PRODUKCYJNY</h2>
         <p>ul. Akcent 18 Warszawa</p>
         <p>tel. 504 071 698 Andrzej</p>
