@@ -3,75 +3,39 @@
     <div class="container row">
       <h1>BP</h1>
       <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/01bp/bp-7.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
+        <img src="/img/01bp/bp-7.jpg"
           @click="showMultiple(4)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/01bp/bp-11.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
+        />
+        <img
+          src="/img/01bp/bp-11.jpg"
           @click="showMultiple(1)"
         >
-        </lazy-image>
       </div>
       <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/01bp/bp-8.jpg"
-          alt="Drewno"
-          :blur-amount="2"
-          class="klasa"
+        <img
+          src="/img/01bp/bp-8.jpg"
           @click="showMultiple(5)"
         >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/01bp/bp-12.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
+        <img
+          src="/img/01bp/bp-12.jpg"
           @click="showMultiple(2)"
         >
-        </lazy-image>
       </div>
       <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/01bp/bp-9.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
+        <img
+          src="/img/01bp/bp-9.jpg"
           @click="showMultiple(6)"
         >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/01bp/bp-13.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
+        <img
+          src="/img/01bp/bp-13.jpg"
           @click="showMultiple(3)"
         >
-        </lazy-image>
       </div>
       <div class="column">
-        <lazy-image
-          initial-image="/img/load.gif"
-          final-image="/img/01bp/bp-10.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
+        <img
+          src="/img/01bp/bp-10.jpg"
           @click="showMultiple(0)"
         >
-        </lazy-image>
       </div>
     </div>
     <div class="container row">
