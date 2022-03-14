@@ -1,5 +1,8 @@
 <template>
   <footer>
+      <div id="btn-top-lbl" class="btn-top-label">
+          Przejdź do góry
+      </div>
     <div class="btn-top" id="btn-top">
       <i class="ri-arrow-up-line" id="btn-top-arrow"></i>
     </div>
