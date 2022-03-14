@@ -685,7 +685,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row" id="lazienki">
+    <div class="container row" id="lazienka">
       <h1>Łazienki</h1>
       <div class="column">
         <lazy-image
@@ -1033,7 +1033,7 @@
         </lazy-image>
       </div>
     </div>
-    <div class="container row" id="pokoje">
+    <div class="container row" id="pokoj">
       <h1>Pokoje</h1>
       <div class="column">
         <lazy-image
