@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container container-about">
     <div class="about">
       <div class="left-about">
         <div class="left-desc">

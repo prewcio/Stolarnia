@@ -1,4 +1,4 @@
-.container {
+.container-about {
     height: 100vh;
     max-height: 100%;
 }
@@ -43,7 +43,7 @@
     flex-basis: 50%;
 }
 @media only screen and (max-width: 1024px) {
-    .container {
+    .container-about {
         height: 100%;
     }
     .about {
