@@ -15,6 +15,13 @@
 .overlay {
     width: 100%;
     height: 100vh;
+    /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)); */
+    position: absolute;
+    top: 0;
+}
+.overlay-black {
+    width: 100%;
+    height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
     position: absolute;
     top: 0;
@@ -234,6 +241,9 @@
 .slider a:hover {
     color: var(--color-gold);
 }
+.grid-main {
+    overflow: hidden;
+}
 @media only screen and (max-width: 768px) {
     .line-1 {
         width: 80px;
@@ -251,6 +261,9 @@
         height: 90vh;
     }
     .overlay {
+        height: 90vh;
+    }
+    .overlay-black {
         height: 90vh;
     }
     .slider {

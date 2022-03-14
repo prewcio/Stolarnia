@@ -1,7 +1,9 @@
 <template>
   <div class="bg-gray-100">
     <div class="container gold mx-auto py-10">
-      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div
+        class="grid grid-main grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6"
+      >
         <a href="/realisation#domy">
           <div
             class="
@@ -15,7 +17,8 @@
               bg-white
               product-wd
             "
-            href="/Realisations#domy"
+            data-aos="fade-right"
+            data-aos-duration="1500"
           >
             <div class="product-img">
               <img src="/img/04Domy/domy-4.jpg" alt="" class="rounded-lg" />
@@ -38,7 +41,8 @@
               bg-white
               product-wd
             "
-            href="/Realisations#kuchnie"
+            data-aos="fade-down"
+            data-aos-duration="1500"
           >
             <div class="product-img">
               <img
@@ -65,6 +69,8 @@
               bg-white
               product-wd
             "
+            data-aos="fade-up"
+            data-aos-duration="1500"
           >
             <div class="product-img">
               <img
@@ -91,6 +97,8 @@
               bg-white
               product-wd
             "
+            data-aos="fade-left"
+            data-aos-duration="1500"
           >
             <div class="product-img">
               <img

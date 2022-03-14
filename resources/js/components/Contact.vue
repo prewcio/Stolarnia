@@ -1,7 +1,11 @@
 <template>
   <div class="container">
     <div class="contact-form my-4 flex flex-col items-center md:flex-row">
-      <div class="text-center basis-full md:basis-1/2">
+      <div
+        class="text-center basis-full md:basis-1/2"
+        data-aos="zoom-in-right"
+        data-aos-duration="1000"
+      >
         <h1 class="font-bold mb-4">KONTAKT</h1>
         <h2>ANMAR-MEBLE S.C. - ZAKŁAD PRODUKCYJNY</h2>
         <p>ul. Akcent 18 Warszawa</p>
@@ -9,7 +13,11 @@
         <p>tel. 602 468 569 Marian</p>
         <p>e-mail: <a href="">biuro@anmar-meble.com</a></p>
       </div>
-      <div class="form w-full basis-full md:basis-1/2">
+      <div
+        class="form w-full basis-full md:basis-1/2"
+        data-aos="zoom-in-left"
+        data-aos-duration="1000"
+      >
         <form @submit.prevent="sendMessage">
           <div class="flex flex-col md:flex-row">
             <div class="flex flex-col w-full">
@@ -73,6 +81,7 @@
       allowfullscreen=""
       loading="lazy"
       class="mb-4"
+      data-aos="zoom-in"
     ></iframe>
   </div>
 </template>

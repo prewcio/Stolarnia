@@ -1,6 +1,6 @@
 <template>
   <div class="container container-about">
-    <div class="about">
+    <div class="about" data-aos="fade-down-left" data-aos-duration="1000">
       <div class="left-about">
         <div class="left-desc">
           <h2>O nas</h2>
@@ -24,7 +24,7 @@
         <img src="/img/about.jpg" alt="about-img" />
       </div>
     </div>
-    <div class="about">
+    <div class="about" data-aos="fade-up-left" data-aos-duration="1000">
       <div class="left-about">
         <img src="/img/about.jpg" alt="about-img" />
       </div>
