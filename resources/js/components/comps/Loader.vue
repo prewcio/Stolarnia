@@ -20,15 +20,17 @@ export default {
     },
     methods: {
         loaderFunc(){
-            console.log(this.loadTime);
-            document.getElementById('loadPageCompo').style.opacity='1';
-            this.loading = true;
+            document.getElementById('loadPageCompo').style.opacity='0';
             setTimeout(()=>{
-                document.getElementById('loadPageCompo').style.opacity='0';
-                setTimeout(() => {
-                    this.loading = false;
-                },500);
-            }, this.loadTime)
+                document.getElementById('loadPageCompo').style.opacity='1';
+                this.loading = true;
+                setTimeout(()=>{
+                    document.getElementById('loadPageCompo').style.opacity='0';
+                    setTimeout(() => {
+                        this.loading = false;
+                    },500);
+                }, this.loadTime)
+            },500)
         },
     },
     mounted() {
@@ -46,7 +48,7 @@ export default {
         left: 0;
         z-index: 9999999999;
         transition: 0.3s opacity;
-        background: rgba(0,0,0,0.6);
+        background: rgba(0,0,0,0.8);
     }
     #loadPageCompo img {
         position: absolute;
