@@ -20,6 +20,7 @@ import main_c5 from './components/MainComp/Main5.vue';
 //Components
 import lazy_img from './components/comps/LazyImage.vue';
 import VueEasyLightbox from 'vue-easy-lightbox'
+import loader from './components/comps/Loader.vue';
 
 const Vue = createApp({
     components: {
@@ -35,7 +36,8 @@ const Vue = createApp({
         main_c3,
         main_c4,
         main_c5,
-        lazy_img
+        lazy_img,
+        loader
     }
 })
 Vue.use(VueEasyLightbox);
