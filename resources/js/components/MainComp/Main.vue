@@ -19,9 +19,6 @@
             indywidualnych jak i klientów firmowych na terenie Polski.
           </p>
           <button><a href="/about">WIĘCEJ O NAS</a></button>
-          <div class="click">
-            <a href="#section"><i class="ri-arrow-down-s-line"></i></a>
-          </div>
         </div>
       </div>
     </div>

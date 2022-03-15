@@ -255,34 +255,6 @@
 .grid-main {
     overflow: hidden;
 }
-.click {
-    position: absolute;
-    top: 160%;
-    left: 50%;
-    transform: translate(-160%, -50%);
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
-}
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-30px);
-    }
-    60% {
-      transform: translateY(-15px);
-    }
-  }
-.click i {
-    color: #fff;
-    font-size: 35px;
-}
-.click a {
-    text-decoration: none;
-    color: #fff;
-}
 @media only screen and (max-width: 768px) {
     .line-1 {
         width: 80px;
