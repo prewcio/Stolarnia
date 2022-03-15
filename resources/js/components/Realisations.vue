@@ -815,7 +815,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(120)"
+          @click="showMultiple(122)"
         >
         </lazy-image>
         <lazy-image
@@ -1042,7 +1042,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(192)"
+          @click="showMultiple(182)"
         >
         </lazy-image>
         <lazy-image
@@ -1051,7 +1051,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(200)"
+          @click="showMultiple(190)"
         >
         </lazy-image>
         <lazy-image
@@ -1060,7 +1060,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(204)"
+          @click="showMultiple(194)"
         >
         </lazy-image>
         <lazy-image
@@ -1069,7 +1069,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(200)"
+          @click="showMultiple(186)"
         >
         </lazy-image>
         <lazy-image
@@ -1078,16 +1078,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(204)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/loading.svg"
-          final-image="/img/13pokoj/pokoj-21.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(204)"
+          @click="showMultiple(199)"
         >
         </lazy-image>
       </div>
@@ -1098,7 +1089,7 @@
           alt="Drewno"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(197)"
+          @click="showMultiple(187)"
         >
         </lazy-image>
         <lazy-image
@@ -1107,7 +1098,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(201)"
+          @click="showMultiple(191)"
         >
         </lazy-image>
         <lazy-image
@@ -1116,7 +1107,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(193)"
+          @click="showMultiple(183)"
         >
         </lazy-image>
         <lazy-image
@@ -1125,7 +1116,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(200)"
+          @click="showMultiple(196)"
         >
         </lazy-image>
         <lazy-image
@@ -1134,7 +1125,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(204)"
+          @click="showMultiple(200)"
         >
         </lazy-image>
         <lazy-image
@@ -1154,7 +1145,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(198)"
+          @click="showMultiple(188)"
         >
         </lazy-image>
         <lazy-image
@@ -1163,7 +1154,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(202)"
+          @click="showMultiple(192)"
         >
         </lazy-image>
         <lazy-image
@@ -1172,16 +1163,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(194)"
-        >
-        </lazy-image>
-        <lazy-image
-          initial-image="/img/loading.svg"
-          final-image="/img/13pokoj/pokoj-16.jpg"
-          alt="Test1"
-          :blur-amount="2"
-          class="klasa"
-          @click="showMultiple(200)"
+          @click="showMultiple(184)"
         >
         </lazy-image>
         <lazy-image
@@ -1190,7 +1172,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(204)"
+          @click="showMultiple(201)"
         >
         </lazy-image>
         <lazy-image
@@ -1199,7 +1181,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(204)"
+          @click="showMultiple(205)"
         >
         </lazy-image>
       </div>
@@ -1210,7 +1192,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(199)"
+          @click="showMultiple(189)"
         >
         </lazy-image>
         <lazy-image
@@ -1219,7 +1201,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(203)"
+          @click="showMultiple(193)"
         >
         </lazy-image>
         <lazy-image
@@ -1228,7 +1210,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(195)"
+          @click="showMultiple(185)"
         >
         </lazy-image>
         <lazy-image
@@ -1237,7 +1219,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(200)"
+          @click="showMultiple(198)"
         >
         </lazy-image>
         <lazy-image
@@ -1246,9 +1228,18 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(204)"
+          @click="showMultiple(202)"
         >
         </lazy-image>
+          <lazy-image
+              initial-image="/img/loading.svg"
+              final-image="/img/13pokoj/pokoj-21.jpg"
+              alt="Test1"
+              :blur-amount="2"
+              class="klasa"
+              @click="showMultiple(203)"
+          >
+          </lazy-image>
       </div>
     </div>
     <div class="container row" id="standy">
@@ -1287,7 +1278,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(226)"
+          @click="showMultiple(210)"
         >
         </lazy-image>
         <lazy-image
@@ -1296,7 +1287,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(226)"
+          @click="showMultiple(214)"
         >
         </lazy-image>
         <lazy-image
@@ -1305,7 +1296,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(226)"
+          @click="showMultiple(219)"
         >
         </lazy-image>
       </div>
@@ -1343,7 +1334,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(226)"
+          @click="showMultiple(211)"
         >
         </lazy-image>
         <lazy-image
@@ -1352,7 +1343,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(226)"
+          @click="showMultiple(215)"
         >
         </lazy-image>
       </div>
@@ -1390,7 +1381,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(226)"
+          @click="showMultiple(212)"
         >
         </lazy-image>
         <lazy-image
@@ -1399,7 +1390,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(226)"
+          @click="showMultiple(216)"
         >
         </lazy-image>
       </div>
@@ -1437,7 +1428,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(226)"
+          @click="showMultiple(213)"
         >
         </lazy-image>
         <lazy-image
@@ -1446,7 +1437,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(226)"
+          @click="showMultiple(218)"
         >
         </lazy-image>
       </div>
@@ -1469,7 +1460,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(259)"
         >
         </lazy-image>
         <lazy-image
@@ -1478,7 +1469,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(263)"
         >
         </lazy-image>
         <lazy-image
@@ -1487,7 +1478,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(231)"
         >
         </lazy-image>
         <lazy-image
@@ -1496,7 +1487,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(235)"
         >
         </lazy-image>
         <lazy-image
@@ -1505,7 +1496,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(240)"
         >
         </lazy-image>
       </div>
@@ -1525,7 +1516,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(260)"
         >
         </lazy-image>
         <lazy-image
@@ -1534,7 +1525,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(228)"
         >
         </lazy-image>
         <lazy-image
@@ -1543,7 +1534,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(232)"
         >
         </lazy-image>
         <lazy-image
@@ -1552,7 +1543,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(236)"
         >
         </lazy-image>
         <lazy-image
@@ -1561,7 +1552,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(241)"
         >
         </lazy-image>
       </div>
@@ -1581,7 +1572,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(261)"
         >
         </lazy-image>
         <lazy-image
@@ -1590,7 +1581,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(229)"
         >
         </lazy-image>
         <lazy-image
@@ -1599,7 +1590,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(233)"
         >
         </lazy-image>
         <lazy-image
@@ -1608,7 +1599,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(237)"
         >
         </lazy-image>
         <lazy-image
@@ -1617,7 +1608,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(242)"
         >
         </lazy-image>
       </div>
@@ -1637,7 +1628,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(262)"
         >
         </lazy-image>
         <lazy-image
@@ -1646,7 +1637,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(230)"
         >
         </lazy-image>
         <lazy-image
@@ -1655,7 +1646,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(234)"
         >
         </lazy-image>
         <lazy-image
@@ -1664,7 +1655,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(239)"
         >
         </lazy-image>
         <lazy-image
@@ -1673,7 +1664,7 @@
           alt="Test1"
           :blur-amount="2"
           class="klasa"
-          @click="showMultiple(227)"
+          @click="showMultiple(243)"
         >
         </lazy-image>
       </div>
