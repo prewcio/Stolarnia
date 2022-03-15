@@ -22,7 +22,7 @@
       <h1>Bank</h1>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/02bank_bgz/bank-0.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -31,7 +31,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/02bank_bgz/bank-4.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -40,7 +40,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/02bank_bgz/bank-8.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -51,7 +51,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/02bank_bgz/bank-1.jpg"
           alt="Drewno"
           :blur-amount="2"
@@ -60,7 +60,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/02bank_bgz/bank-5.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -69,7 +69,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/02bank_bgz/bank-9.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -80,7 +80,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/02bank_bgz/bank-2.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -89,7 +89,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/02bank_bgz/bank-6.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -98,7 +98,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/02bank_bgz/bank-10.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -109,7 +109,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/02bank_bgz/bank-3.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -118,7 +118,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/02bank_bgz/bank-7.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -132,7 +132,7 @@
       <h1>Biblioteka</h1>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/03biblioteka/biblioteka-1.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -143,7 +143,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/03biblioteka/biblioteka-2.jpg"
           alt="Drewno"
           :blur-amount="2"
@@ -154,7 +154,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/03biblioteka/biblioteka-3.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -165,7 +165,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/03biblioteka/biblioteka-4.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -179,7 +179,7 @@
       <h1>Domy</h1>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/04domy/domy-1.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -188,7 +188,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/04domy/domy-5.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -197,7 +197,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/04domy/domy-9.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -208,7 +208,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/04domy/domy-2.jpg"
           alt="Drewno"
           :blur-amount="2"
@@ -217,7 +217,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/04domy/domy-6.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -226,7 +226,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/04domy/domy-10.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -237,7 +237,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/04domy/domy-3.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -246,7 +246,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/04domy/domy-11.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -255,7 +255,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/04domy/domy-7.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -264,7 +264,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/04domy/domy-12.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -275,7 +275,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/04domy/domy-4.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -284,7 +284,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/04domy/domy-8.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -293,7 +293,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/04domy/domy-13.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -307,7 +307,7 @@
       <h1>Garderoba</h1>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/05garderoba/garderoba-1.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -318,7 +318,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/05garderoba/garderoba-2.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -332,7 +332,7 @@
       <h1>Kuchnie Stylowe</h1>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-1.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -341,7 +341,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-5.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -350,7 +350,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-9.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -359,7 +359,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-12.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -370,7 +370,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-2.jpg"
           alt="Drewno"
           :blur-amount="2"
@@ -379,7 +379,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-6.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -388,7 +388,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-10.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -397,7 +397,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-13.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -408,7 +408,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-3.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -417,7 +417,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-7.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -426,7 +426,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-11.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -435,7 +435,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-14.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -446,7 +446,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-4.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -455,7 +455,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-8.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -464,7 +464,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-12.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -473,7 +473,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/06kuchnia_stylowa/KuchniaStyl-15.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -487,7 +487,7 @@
       <h1>Kuchnie</h1>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/07kuchnie/kuchnie-1.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -496,7 +496,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/07kuchnie/kuchnie-5.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -505,7 +505,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/07kuchnie/kuchnie-9.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -516,7 +516,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/07kuchnie/kuchnie-2.jpg"
           alt="Drewno"
           :blur-amount="2"
@@ -525,7 +525,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/07kuchnie/kuchnie-6.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -534,7 +534,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/07kuchnie/kuchnie-10.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -545,7 +545,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/07kuchnie/kuchnie-3.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -554,7 +554,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/07kuchnie/kuchnie-7.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -563,7 +563,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/07kuchnie/kuchnie-11.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -574,7 +574,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/07kuchnie/kuchnie-4.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -583,7 +583,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/07kuchnie/kuchnie-8.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -592,7 +592,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/07kuchnie/kuchnie-12.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -606,7 +606,7 @@
       <h1>Lada</h1>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/09lada/lada-1.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -615,7 +615,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/09lada/lada-5.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -626,7 +626,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/09lada/lada-2.jpg"
           alt="Drewno"
           :blur-amount="2"
@@ -635,7 +635,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/09lada/lada-6.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -646,7 +646,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/09lada/lada-3.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -655,7 +655,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/09lada/lada-7.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -666,7 +666,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/09lada/lada-4.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -675,7 +675,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/09lada/lada-8.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -689,7 +689,7 @@
       <h1>Łazienki</h1>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/10lazienka/lazienka-1.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -698,7 +698,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/10lazienka/lazienka-5.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -709,7 +709,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/10lazienka/lazienka-2.jpg"
           alt="Drewno"
           :blur-amount="2"
@@ -718,7 +718,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/10lazienka/lazienka-6.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -729,7 +729,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/10lazienka/lazienka-3.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -738,7 +738,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/10lazienka/lazienka-7.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -749,7 +749,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/10lazienka/lazienka-4.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -763,7 +763,7 @@
       <h1>Meble Metalowe</h1>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/11metalowe/metalowe-1.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -774,7 +774,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/11metalowe/metalowe-2.jpg"
           alt="Drewno"
           :blur-amount="2"
@@ -785,7 +785,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/11metalowe/metalowe-3.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -796,7 +796,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/11metalowe/metalowe-4.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -810,7 +810,7 @@
       <h1>Mini Akademik</h1>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-1.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -819,7 +819,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-5.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -828,7 +828,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-9.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -837,7 +837,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-13.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -846,7 +846,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-17.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -855,7 +855,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-21.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -866,7 +866,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-2.jpg"
           alt="Drewno"
           :blur-amount="2"
@@ -875,7 +875,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-6.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -884,7 +884,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-10.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -893,7 +893,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-14.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -902,7 +902,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-18.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -911,7 +911,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-22.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -922,7 +922,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-3.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -931,7 +931,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-7.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -940,7 +940,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-11.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -949,7 +949,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-15.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -958,7 +958,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-19.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -967,7 +967,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-23.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -978,7 +978,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-4.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -987,7 +987,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-8.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -996,7 +996,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-12.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1005,7 +1005,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-16.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1014,7 +1014,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-20.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1023,7 +1023,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/12mini_akademik/miniakad-24.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1037,7 +1037,7 @@
       <h1>Pokoje</h1>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-1.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1046,7 +1046,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-5.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1055,7 +1055,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-9.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1064,7 +1064,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-13.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1073,7 +1073,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-17.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1082,7 +1082,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-21.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1093,7 +1093,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-2.jpg"
           alt="Drewno"
           :blur-amount="2"
@@ -1102,7 +1102,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-6.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1111,7 +1111,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-10.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1120,7 +1120,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-14.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1129,7 +1129,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-18.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1138,7 +1138,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-22.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1149,7 +1149,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-3.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1158,7 +1158,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-7.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1167,7 +1167,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-11.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1176,7 +1176,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-16.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1185,7 +1185,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-19.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1194,7 +1194,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-23.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1205,7 +1205,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-4.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1214,7 +1214,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-8.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1223,7 +1223,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-12.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1232,7 +1232,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-16.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1241,7 +1241,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/13pokoj/pokoj-20.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1255,7 +1255,7 @@
       <h1>Standy Reklamowe</h1>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-1.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1264,7 +1264,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-5.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1273,7 +1273,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-9.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1282,7 +1282,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-13.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1291,7 +1291,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-17.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1300,7 +1300,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-21.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1311,7 +1311,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-2.jpg"
           alt="Drewno"
           :blur-amount="2"
@@ -1320,7 +1320,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-6.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1329,7 +1329,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-10.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1338,7 +1338,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-14.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1347,7 +1347,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-18.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1358,7 +1358,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-3.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1367,7 +1367,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-7.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1376,7 +1376,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-11.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1385,7 +1385,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-15.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1394,7 +1394,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-19.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1405,7 +1405,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-4.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1414,7 +1414,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-8.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1423,7 +1423,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-12.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1432,7 +1432,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-16.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1441,7 +1441,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/14standy_reklamowe/standy-20.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1455,7 +1455,7 @@
       <h1>Szafy i Szafki</h1>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-1.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1464,7 +1464,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-5.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1473,7 +1473,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-9.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1482,7 +1482,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-13.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1491,7 +1491,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-17.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1500,7 +1500,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-21.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1511,7 +1511,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-2.jpg"
           alt="Drewno"
           :blur-amount="2"
@@ -1520,7 +1520,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-6.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1529,7 +1529,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-10.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1538,7 +1538,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-14.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1547,7 +1547,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-18.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1556,7 +1556,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-22.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1567,7 +1567,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-3.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1576,7 +1576,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-7.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1585,7 +1585,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-11.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1594,7 +1594,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-15.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1603,7 +1603,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-19.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1612,7 +1612,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-23.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1623,7 +1623,7 @@
       </div>
       <div class="column">
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-4.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1632,7 +1632,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-8.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1641,7 +1641,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-12.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1650,7 +1650,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-16.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1659,7 +1659,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-20.jpg"
           alt="Test1"
           :blur-amount="2"
@@ -1668,7 +1668,7 @@
         >
         </lazy-image>
         <lazy-image
-          initial-image="/img/load.gif"
+          initial-image="/img/loading.svg"
           final-image="/img/15szafy_szafki/SzaftISzafki-24.jpg"
           alt="Test1"
           :blur-amount="2"
