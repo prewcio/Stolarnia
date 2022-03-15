@@ -1,12 +1,12 @@
 <template>
   <div class="video-section">
     <div class="video-desc" data-aos="fade-up" data-aos-duration="3500">
-      <h1>Zobacz Etapy Pracy</h1>
+      <h1 class="drop-shadow-lg">Zobacz Etapy Pracy</h1>
       <div class="lines">
         <span class="line-1"></span><br />
         <span class="line-2"></span>
       </div>
-      <p>
+      <p class="drop-shadow-lg">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias modi
         doloribus nostrum labore quod ducimus, perspiciatis, nam minima
         perferendis rerum, vel eaque! Corrupti similique doloremque at
