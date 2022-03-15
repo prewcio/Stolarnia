@@ -1,6 +1,6 @@
 <template>
   <div class="realizations bg-gray-100 py-6 px-6">
-    <div data-aos="fade-up">
+    <div data-aos="fade-up" data-aos-duration="500">
       <h1>Wykonane realizacje</h1>
       <div class="lines">
         <span class="line-1"></span><br />

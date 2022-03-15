@@ -18,7 +18,10 @@
             Anmar-Meble świadczy usługi stolarskie zarówno dla klientów
             indywidualnych jak i klientów firmowych na terenie Polski.
           </p>
-          <button>WIĘCEJ O NAS</button>
+          <button><a href="/about">WIĘCEJ O NAS</a></button>
+          <div class="click">
+            <a href="#section"><i class="ri-arrow-down-s-line"></i></a>
+          </div>
         </div>
       </div>
     </div>

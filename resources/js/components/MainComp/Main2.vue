@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100">
+  <div class="bg-gray-100" id="section">
     <div class="container gold mx-auto py-10">
       <div
         class="grid grid-main grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6"

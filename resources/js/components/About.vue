@@ -1,7 +1,11 @@
 <template>
   <div class="container container-about">
-    <div class="about" data-aos="fade-down-left" data-aos-duration="1000">
-      <div class="left-about">
+    <div class="about">
+      <div
+        class="left-about"
+        data-aos="fade-down-right"
+        data-aos-duration="1000"
+      >
         <div class="left-desc">
           <h2>O nas</h2>
           <span class="line-2"></span>
@@ -20,15 +24,27 @@
           </p>
         </div>
       </div>
-      <div class="right-about">
-        <img src="/img/about.jpg" alt="about-img" />
+      <div
+        class="right-about"
+        data-aos="fade-down-left"
+        data-aos-duration="1000"
+      >
+        <img src="/img/about.jpg" alt="about-img" class="shadow-xl" />
       </div>
     </div>
-    <div class="about" data-aos="fade-up-left" data-aos-duration="1000">
-      <div class="left-about">
-        <img src="/img/about.jpg" alt="about-img" />
+    <div class="about">
+      <div
+        class="left-about"
+        data-aos="fade-down-right"
+        data-aos-duration="1000"
+      >
+        <img src="/img/about.jpg" alt="about-img" class="shadow-xl" />
       </div>
-      <div class="right-about">
+      <div
+        class="right-about"
+        data-aos="fade-down-left"
+        data-aos-duration="1000"
+      >
         <div class="right-desc">
           <h2>Historia</h2>
           <span class="line-1"></span>

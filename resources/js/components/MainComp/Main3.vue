@@ -1,6 +1,6 @@
 <template>
   <div class="video-section">
-    <div class="video-desc" data-aos="fade-up" data-aos-duration="3000">
+    <div class="video-desc" data-aos="fade-up" data-aos-duration="3500">
       <h1>Zobacz Etapy Pracy</h1>
       <div class="lines">
         <span class="line-1"></span><br />
