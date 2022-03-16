@@ -88,7 +88,6 @@
       loading="lazy"
       class="mb-4"
       data-aos="zoom-in"
-      data-aos-delay="1500"
     ></iframe>
   </div>
 </template>
