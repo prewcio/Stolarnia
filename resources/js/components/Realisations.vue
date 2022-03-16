@@ -1,6 +1,8 @@
 <template>
   <div class="container-realizations">
-    <loader></loader>
+      <div class="page-loader" v-if="loading === true" id="loadPageCompo">
+          <img src="/img/loading.svg" />
+      </div>
     <div class="container row" id="bp">
       <h1>BP</h1>
       <div class="column">
@@ -1699,13 +1701,28 @@ export default {
     return {
       imgs: [], // Img Url , string or Array of string
       visible: false,
+      loading: true,
       index: 0, // default: 0
     };
   },
   mounted() {
     this.images();
+    this.loaderFunc();
   },
   methods: {
+      loaderFunc() {
+          document.getElementById("loadPageCompo").style.opacity = "0";
+          setTimeout(() => {
+              document.getElementById("loadPageCompo").style.opacity = "1";
+              setTimeout(() => {
+                          document.getElementById("loadPageCompo").style.opacity = "0";
+                          setTimeout(() => {
+                              document.getElementById("loadPageCompo").style.visibility="hidden";
+                              this.loading = false;
+                          },500)
+              },3000);
+          },100);
+      },
     images: function () {
         axios.get("/api/images").then((response) => {
         this.resp = response.data.data;

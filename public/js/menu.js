@@ -87,9 +87,6 @@ $(document).ready(function() {
         var elem = document.getElementById(hash.substr(1));
         setTimeout(() => {
             window.scrollTo($(hash).offset().left, $(hash).offset().top);
-            setTimeout(() => {
-                window.scrollTo($(hash).offset().left, $(hash).offset().top);
-            }, 2000)
-        }, 500)
+        }, 3000)
     }
 })
