@@ -36,6 +36,7 @@ body {
     font-size: 1.2em;
     color: var(--color-black);
     transition: 0.3s;
+    font-weight: 500;
 }
 .active {
     color: var(--color-gold) !important;

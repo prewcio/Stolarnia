@@ -2,6 +2,22 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+*::selection {
+    background: var(--color-gold);
+    color: var(--color-white);
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+}
+::-webkit-scrollbar-track {
+  background: #cecece;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gray);
+}
 .main {
     background: url(../img/wood2.jpg);
     height: 100vh;
@@ -175,6 +191,12 @@
 .swiper-pagination, .swiper-pagination-clickable, .swiper-pagination-bullets, .swiper-pagination-horizontal {
     padding-top: 10px !important;
 }
+.description a {
+    color: var(--color-gold);
+}
+.description p {
+    color: var(--color-gray);
+}
 .product-desc-2 {
     font-size: 1.5em;
 }
@@ -197,6 +219,10 @@
     border: none;
     color: var(--color-white);
     padding: 10px 20px;
+    transition: 0.5s;
+}
+.contact-form button:hover {
+    letter-spacing: 5px;
 }
 .contact-form h1 {
     font-size: 3em;
@@ -207,6 +233,10 @@
 }
 .contact-form p {
     font-size: 1.2em;
+    color: var(--color-gray);
+}
+.contact-form a {
+    color: var(--color-gold);
 }
 .contact {
     overflow: hidden;

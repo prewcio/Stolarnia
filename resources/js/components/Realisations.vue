@@ -1231,15 +1231,15 @@
           @click="showMultiple(202)"
         >
         </lazy-image>
-          <lazy-image
-              initial-image="/img/loading.svg"
-              final-image="/img/13pokoj/pokoj-21.jpg"
-              alt="Test1"
-              :blur-amount="2"
-              class="klasa"
-              @click="showMultiple(203)"
-          >
-          </lazy-image>
+        <lazy-image
+          initial-image="/img/loading.svg"
+          final-image="/img/13pokoj/pokoj-21.jpg"
+          alt="Test1"
+          :blur-amount="2"
+          class="klasa"
+          @click="showMultiple(203)"
+        >
+        </lazy-image>
       </div>
     </div>
     <div class="container row" id="standy">

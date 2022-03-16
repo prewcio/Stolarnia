@@ -13,15 +13,18 @@
       </div>
       <div class="text">
         <i class="ri-phone-fill"></i>
-        <p>tel. 504 071 698 Andrzej</p>
+        <p>tel. <a href="tel:+48504071698">504 071 698</a> Andrzej</p>
       </div>
       <div class="text">
         <i class="ri-phone-fill"></i>
-        <p>tel. 602 468 569 Marian</p>
+        <p>tel. <a href="tel:+48602468569">602 468 569</a> Marian</p>
       </div>
       <div class="text">
         <i class="ri-mail-fill"></i>
-        <p>e-mail: <a href="">biuro@anmar-meble.com</a></p>
+        <p>
+          e-mail:
+          <a href="mailto:biuro@anmar-meble.com">biuro@anmar-meble.com</a>
+        </p>
       </div>
     </div>
     <div class="map m-4" data-aos="fade-down" data-aos-duration="1000">

@@ -9,9 +9,12 @@
         <h1 class="font-bold mb-4">KONTAKT</h1>
         <h2>ANMAR-MEBLE S.C. - ZAKŁAD PRODUKCYJNY</h2>
         <p>ul. Akcent 18 Warszawa</p>
-        <p>tel. 504 071 698 Andrzej</p>
-        <p>tel. 602 468 569 Marian</p>
-        <p>e-mail: <a href="">biuro@anmar-meble.com</a></p>
+        <p>tel. <a href="tel:+48602468569">504 071 698</a> Andrzej</p>
+        <p>tel. <a href="tel:+48602468569">602 468 569</a> Marian</p>
+        <p>
+          e-mail:
+          <a href="mailto:biurto@anmar-meble.com">biuro@anmar-meble.com</a>
+        </p>
       </div>
       <div
         class="form w-full basis-full md:basis-1/2"
