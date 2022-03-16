@@ -20,10 +20,10 @@ function CloseMenu() {
 
 
 var menu = $('.nav-menu');
-if(menu.length) {
+if (menu.length) {
     let links = menu.find('a');
     $(links).each(function (index) {
-        if(this.href == window.location.href){
+        if (this.href == window.location.href) {
             console.log(index);
             $(links[index]).addClass('active');
         }
@@ -33,15 +33,10 @@ if(menu.length) {
 var btntop = document.getElementById("btn-top");
 var btntoplbl = document.getElementById("btn-top-lbl");
 window.onscroll = function () {
-    scrollFunction() ;
+    scrollFunction();
 };
 
-$('h1').click(function (){
-    pos = $(this).offset().top;
-    console.log(pos);
-})
-
-$(document).ready( function (){
+$(document).ready(function () {
     btntop.style.display = "block";
     btntop.style.visibility = "hidden";
     btntop.style.opacity = "0";
@@ -51,10 +46,10 @@ $(document).ready( function (){
 
 })
 
-$('#btn-top').click(function (){
+$('#btn-top').click(function () {
     topFunction();
 });
-$('#btn-top-arrow').click(function (){
+$('#btn-top-arrow').click(function () {
     topFunction();
 });
 
@@ -65,12 +60,12 @@ function scrollFunction() {
         btntoplbl.style.visibility = "visible";
         btntoplbl.style.opacity = "1";
     } else {
-        btntoplbl.style.opacity="0";
+        btntoplbl.style.opacity = "0";
         btntop.style.opacity = "0";
-        setTimeout(function (){
+        setTimeout(function () {
             btntop.style.visibility = "hidden";
             btntoplbl.style.visibility = "hidden";
-        },500)
+        }, 500)
     }
 }
 
@@ -79,11 +74,11 @@ function topFunction() {
     window.scrollTo(0, 0);
 }
 
-$(document).ready(function() {
-    window.scrollTo(0,1);
-    window.scrollTo(0, 0);
+$(document).ready(function () {
     var hash = $(location).prop('hash');
-    if(hash) {
+    if (hash) {
+        window.scrollTo(0, 1);
+        window.scrollTo(0, 0);
         var elem = document.getElementById(hash.substr(1));
         setTimeout(() => {
             window.scrollTo($(hash).offset().left, $(hash).offset().top);
