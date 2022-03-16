@@ -1688,6 +1688,7 @@ import LazyImage from "./comps/LazyImage";
 import axios from "axios";
 import Loader from "./comps/Loader";
 
+
 export default {
   components: {
     LazyImage,
@@ -1706,22 +1707,21 @@ export default {
   },
   methods: {
     images: function () {
-      axios.get("/api/images").then((response) => {
+        axios.get("/api/images").then((response) => {
         this.resp = response.data.data;
         let ok = 0;
         for (let i = 0; i < this.resp.length; i++) {
           this.respImages = this.resp[i].images;
           for (let j = 0; j < this.respImages.length; j++) {
-            console.log(
-              ok + ". " + this.resp[i].realisation + "/" + this.respImages[j]
-            );
+            // console.log(
+            //   ok + ". " + this.resp[i].realisation + "/" + this.respImages[j]
+            // );
             ok++;
             this.imgs.push(
               "/img/" + this.resp[i].realisation + "/" + this.respImages[j]
             );
           }
         }
-        // console.log(this.resp);
       });
     },
     showMultiple(index) {

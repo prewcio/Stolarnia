@@ -32,7 +32,14 @@ if(menu.length) {
 
 var btntop = document.getElementById("btn-top");
 var btntoplbl = document.getElementById("btn-top-lbl");
-window.onscroll = function () { scrollFunction() };
+window.onscroll = function () {
+    scrollFunction() ;
+};
+
+$('h1').click(function (){
+    pos = $(this).offset().top;
+    console.log(pos);
+})
 
 $(document).ready( function (){
     btntop.style.display = "block";
@@ -66,6 +73,20 @@ function scrollFunction() {
         },500)
     }
 }
+
+
 function topFunction() {
     window.scrollTo(0, 0);
 }
+
+$(document).ready(function() {
+    var hash = $(location).prop('hash');
+    if(hash) {
+        var elem = document.getElementById(hash.substr(1));
+        window.scrollTo(0, 1);
+        window.scrollTo(0, 0);
+        setTimeout(() => {
+            window.scrollTo($(hash).offset().left, $(hash).offset().top);
+        }, 500)
+    }
+})
