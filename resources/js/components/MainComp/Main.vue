@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="overlay-black">
-      <div class="overlay" data-aos="fade-right" data-aos-duration="1500">
+      <div class="overlay" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1500">
         <div class="main-desc">
           <h1>Anmar-Meble S.C</h1>
           <div class="lines">
