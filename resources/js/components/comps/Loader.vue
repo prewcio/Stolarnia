@@ -14,23 +14,22 @@ export default {
   },
   methods: {
     loaderFunc() {
-        document.getElementById("loadPageCompo").style.opacity = "0";
+      document.getElementById("loadPageCompo").style.opacity = "0";
       setTimeout(() => {
-          document.getElementById("loadPageCompo").style.opacity = "1";
-          setTimeout(() => {
-              $(document).ready(function (){
-                  console.log("OK");
-                  document.getElementById("loadPageCompo").style.opacity = "0";
-                  setTimeout(() => {
-                      document.getElementById("loadPageCompo").style.visibility="hidden";
-                      this.loading = false;
-                  },500)
-              }
-              )
-          },500);
-      },100);
+        document.getElementById("loadPageCompo").style.opacity = "1";
+        setTimeout(() => {
+          $(document).ready(function () {
+            window.scrollTo(0, 0);
+            document.getElementById("loadPageCompo").style.opacity = "0";
+            setTimeout(() => {
+              document.getElementById("loadPageCompo").style.visibility =
+                "hidden";
+              this.loading = false;
+            }, 500);
+          });
+        }, 500);
+      }, 100);
     },
-
   },
   mounted() {
     this.loaderFunc();
