@@ -6,7 +6,6 @@
         class="text-center basis-full md:basis-1/2"
         data-aos="zoom-in-right"
         data-aos-duration="1000"
-        data-aos-delay="1500"
       >
         <h1 class="font-bold mb-4">KONTAKT</h1>
         <h2>ANMAR-MEBLE S.C. - ZAKŁAD PRODUKCYJNY</h2>
@@ -22,7 +21,6 @@
         class="form w-full basis-full md:basis-1/2"
         data-aos="zoom-in-left"
         data-aos-duration="1000"
-        data-aos-delay="1500"
       >
         <form @submit.prevent="sendMessage">
           <div class="flex flex-col md:flex-row">

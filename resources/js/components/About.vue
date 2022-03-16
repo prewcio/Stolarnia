@@ -6,7 +6,7 @@
         class="left-about"
         data-aos="fade-down-right"
         data-aos-duration="1000"
-        data-aos-delay="1500"
+
       >
         <div class="left-desc">
           <h2>O nas</h2>
@@ -30,7 +30,7 @@
         class="right-about"
         data-aos="fade-down-left"
         data-aos-duration="1000"
-        data-aos-delay="1500"
+
       >
         <img src="/img/about.jpg" alt="about-img" class="shadow-xl" />
       </div>
@@ -40,7 +40,7 @@
         class="left-about"
         data-aos="fade-down-right"
         data-aos-duration="1000"
-        data-aos-delay="1500"
+
       >
         <img src="/img/about.jpg" alt="about-img" class="shadow-xl" />
       </div>
@@ -48,7 +48,6 @@
         class="right-about"
         data-aos="fade-down-left"
         data-aos-duration="1000"
-        data-aos-delay="1500"
       >
         <div class="right-desc">
           <h2>Historia</h2>
