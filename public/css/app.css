@@ -11748,9 +11748,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .visible {
   visibility: visible;
 }
-.relative {
-  position: relative;
-}
 .z-10 {
   z-index: 10;
 }
@@ -11770,9 +11767,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .mr-0 {
   margin-right: 0px;
-}
-.block {
-  display: block;
 }
 .flex {
   display: flex;
