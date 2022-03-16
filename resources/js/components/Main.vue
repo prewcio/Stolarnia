@@ -1,6 +1,6 @@
 <template>
     <div>
-        <loader :loadTime=3000></loader>
+        <loader></loader>
         <main_c1></main_c1>
         <main_c2></main_c2>
         <main_c3></main_c3>

@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <loader></loader>
     <div class="contact-form my-4 flex flex-col items-center md:flex-row">
       <div
         class="text-center basis-full md:basis-1/2"
@@ -90,9 +91,11 @@
 </template>
 
 <script>
+import Loader from "./comps/Loader";
 export default {
   name: "Contact",
-  data: function () {
+    components: {Loader},
+    data: function () {
     return {
       name: "",
       email: "",

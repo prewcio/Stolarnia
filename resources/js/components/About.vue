@@ -1,5 +1,6 @@
 <template>
   <div class="container container-about">
+    <loader></loader>
     <div class="about">
       <div
         class="left-about"
@@ -68,8 +69,10 @@
 </template>
 
 <script>
+import Loader from "./comps/Loader";
 export default {
   name: "About",
+    components: {Loader},
 };
 </script>
 

@@ -1,5 +1,6 @@
 <template>
   <div class="container-realizations">
+    <loader></loader>
     <div class="container row" id="bp">
       <h1>BP</h1>
       <div class="column">
@@ -1685,10 +1686,12 @@
 import VueEasyLightbox from "vue-easy-lightbox";
 import LazyImage from "./comps/LazyImage";
 import axios from "axios";
+import Loader from "./comps/Loader";
 
 export default {
   components: {
     LazyImage,
+    Loader,
     VueEasyLightbox,
   },
   data() {
