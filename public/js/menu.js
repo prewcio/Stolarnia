@@ -80,13 +80,16 @@ function topFunction() {
 }
 
 $(document).ready(function() {
-    window.scrollTo(0, 1);
+    window.scrollTo(0,1);
     window.scrollTo(0, 0);
     var hash = $(location).prop('hash');
     if(hash) {
         var elem = document.getElementById(hash.substr(1));
         setTimeout(() => {
             window.scrollTo($(hash).offset().left, $(hash).offset().top);
+            setTimeout(() => {
+                window.scrollTo($(hash).offset().left, $(hash).offset().top);
+            }, 2000)
         }, 500)
     }
 })
