@@ -6,12 +6,18 @@ body {
     --color-black: #000;
     --color-white: #FFF;
     --color-gray: #8D8D8D;
+    --color-gray-100: #f3f4f6;
+}
+.dark-mode {
+    --color-black: #e3e3e3;
+    --color-white: #121212;
+    --color-gray-100: #212121;
 }
 .logo {
     width: 250px;
 }
 .navigation {
-    background-color: rgb(243 244 246);;
+    background-color: var(--color-gray-100);
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -64,7 +70,7 @@ body {
         font-size: 1.1em;
     }
     .nav-menu {
-        background-color: rgb(243 244 246);;
+        background-color: var(--color-gray-100);
         position: absolute;
         left: -100%;
         top: 4.1rem;

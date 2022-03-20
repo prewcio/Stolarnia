@@ -7,10 +7,9 @@
         <span class="line-2"></span>
       </div>
       <p class="drop-shadow-lg">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias modi
-        doloribus nostrum labore quod ducimus, perspiciatis, nam minima
-        perferendis rerum, vel eaque! Corrupti similique doloremque at
-        repellendus sed debitis esse!
+        Posiadamy własną kabinę lakiernicza w której przygotowujemy elementy
+        mebli na własny użytek. Każdy etap pracy jest indywidualnie
+        przygotowywany do zlecenia.
       </p>
     </div>
     <div class="video">

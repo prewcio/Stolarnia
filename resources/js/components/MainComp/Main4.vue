@@ -1,5 +1,5 @@
 <template>
-  <div class="realizations bg-gray-100 py-6 px-6">
+  <div class="realizations py-6 px-6">
     <div data-aos="fade-up" data-aos-duration="500">
       <h1>Wykonane realizacje</h1>
       <div class="lines">
@@ -43,7 +43,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                   z-10
                 "
@@ -69,7 +68,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -94,7 +92,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -119,7 +116,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -144,7 +140,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -169,7 +164,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -194,7 +188,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -219,7 +212,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -244,7 +236,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -269,7 +260,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >

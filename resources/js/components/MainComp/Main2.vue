@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100" id="section">
+  <div class="main-2" id="section">
     <div class="container gold mx-auto py-10">
       <div
         class="grid grid-main grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6"
@@ -14,7 +14,6 @@
               shadow-md
               text-center
               cursor-pointer
-              bg-white
               product-wd
             "
             data-aos="fade-right"
@@ -38,7 +37,6 @@
               shadow-md
               text-center
               cursor-pointer
-              bg-white
               product-wd
             "
             data-aos="fade-down"
@@ -66,7 +64,6 @@
               shadow-md
               text-center
               cursor-pointer
-              bg-white
               product-wd
             "
             data-aos="fade-up"
@@ -94,7 +91,6 @@
               shadow-md
               text-center
               cursor-pointer
-              bg-white
               product-wd
             "
             data-aos="fade-left"
