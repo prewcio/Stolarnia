@@ -145,8 +145,6 @@ nav ul li:nth-child(4){
     .hamburger-menu {
         display: block;
         cursor: pointer;
-        animation: slideIn 1s forwards;
-        transform: translateX(100rem);
     }
     .hamburger-menu.active .bar-menu:nth-child(2) {
         opacity: 0;
