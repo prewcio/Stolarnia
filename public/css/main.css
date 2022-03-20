@@ -254,6 +254,12 @@
 .contact-form label {
     color: var(--color-black);
 }
+.contact-form input {
+    background-color: var(--color-white);
+}
+.contact-form textarea {
+    background-color: var(--color-white);
+}
 .contact {
     overflow: hidden;
 }
