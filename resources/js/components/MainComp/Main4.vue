@@ -43,7 +43,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                   z-10
                 "
@@ -69,7 +68,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -94,7 +92,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -119,7 +116,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -144,7 +140,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -169,7 +164,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -194,7 +188,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -219,7 +212,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -244,7 +236,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >
@@ -269,7 +260,6 @@
                   shadow-md
                   text-center
                   cursor-pointer
-                  bg-white
                   product-wd
                 "
               >

@@ -14,7 +14,6 @@
               shadow-md
               text-center
               cursor-pointer
-              bg-white
               product-wd
             "
             data-aos="fade-right"
@@ -38,7 +37,6 @@
               shadow-md
               text-center
               cursor-pointer
-              bg-white
               product-wd
             "
             data-aos="fade-down"
@@ -66,7 +64,6 @@
               shadow-md
               text-center
               cursor-pointer
-              bg-white
               product-wd
             "
             data-aos="fade-up"
@@ -94,7 +91,6 @@
               shadow-md
               text-center
               cursor-pointer
-              bg-white
               product-wd
             "
             data-aos="fade-left"
