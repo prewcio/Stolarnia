@@ -329,7 +329,7 @@
     .main-desc {
         padding-left: 5px;
         padding-right: 5px;
-        color: var(--color-white);
+        color: #fff;
         width: 100%;
         text-align: center;
     }
@@ -346,9 +346,7 @@
         font-weight: 500;
         font-size: 1.2em;
         outline: none;
-        background-color: var(--color-white);
         border: none;
-        color: var(--color-gold);
         padding: 10px 20px;
     }
     .video-desc h1 {
