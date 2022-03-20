@@ -6,18 +6,19 @@
     background: var(--color-gold);
     color: var(--color-white);
 }
-::-webkit-scrollbar {
-  width: 15px;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--color-gold);
-}
-::-webkit-scrollbar-track {
-  background: #cecece;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-gray);
-}
+/*::-webkit-scrollbar {*/
+/*  width: 15px;*/
+/*}*/
+/*::-webkit-scrollbar-thumb {*/
+/*  background: var(--color-gold);*/
+/*    border-radius: 10px;*/
+/*}*/
+/*::-webkit-scrollbar-track {*/
+/*  background: #cecece;*/
+/*}*/
+/*::-webkit-scrollbar-thumb:hover {*/
+/*  background: var(--color-gray);*/
+/*}*/
 .main {
     background: url(../img/wood2.jpg);
     height: 100vh;
@@ -75,7 +76,7 @@
 .main-desc button:hover {
     letter-spacing: 5px;
 }
-.main-desc button a:hover { 
+.main-desc button a:hover {
     color: var(--color-gold);
 }
 .product-img {

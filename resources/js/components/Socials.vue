@@ -7,6 +7,9 @@
           <span>Facebook</span>
         </a>
       </li>
+        <li>
+            <a id="icon"></a>
+        </li>
     </ul>
   </div>
 </template>

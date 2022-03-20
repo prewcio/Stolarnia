@@ -84,9 +84,17 @@ $(document).ready(function () {
             window.scrollTo($(hash).offset().left, $(hash).offset().top);
         }, 3000)
     }
+    if(localStorage.getItem('darkMode')==='true'){
+        document.body.classList.toggle("dark-mode");
+    }
 })
 
 var icon = document.getElementById("icon");
 icon.onclick = function () {
     document.body.classList.toggle("dark-mode");
+    if(document.body.classList.contains('dark-mode')){
+        localStorage.setItem('darkMode','true');
+    } else {
+        localStorage.removeItem('darkMode');
+    }
 };
