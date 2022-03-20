@@ -211,6 +211,7 @@
 .product-wd {
     background-color: var(--color-white);
     color: var(--color-black);
+    text-transform: uppercase;
 }
 .product-desc-2 {
     font-size: 1.5em;
