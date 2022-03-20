@@ -41,13 +41,16 @@
     position: absolute;
     top: 0;
 }
+.main-2 {
+    background-color: var(--color-gray-100);
+}
 .main-desc {
     position: absolute;
     top: 50%;
     left: 50%;
     padding-left: 100px;
     transform: translate(-50%, -50%);
-    color: var(--color-white);
+    color: #fff;
     width: 100%;
 }
 .main-desc h1 {
@@ -63,9 +66,9 @@
     font-weight: 500;
     font-size: 1.2em;
     outline: none;
-    background-color: var(--color-white);
+    background-color: #fff;
     border: none;
-    color: var(--color-gold);
+    color: #DFBD69;
     padding: 10px 20px;
     transition: 0.3s;
 }
@@ -104,6 +107,7 @@
 .video-desc p {
     margin-top: 10px;
     width: 34em;
+    font-weight: 500;
 }
 .img-container {
     background-image: url(../img/zdj-2.jpg);
@@ -124,9 +128,13 @@
 .realizations {
     text-align: center;
 }
+.realizations {
+    background-color: var(--color-gray-100);
+  }
 .realizations h1 {
     font-size: 3em;
     font-weight: bold;
+    color: var(--color-black);
 }
 .contact h2 {
     font-size: 1.1em;
@@ -191,6 +199,9 @@
 .swiper-pagination, .swiper-pagination-clickable, .swiper-pagination-bullets, .swiper-pagination-horizontal {
     padding-top: 10px !important;
 }
+.description h2 {
+    color: var(--color-black)
+}
 .description a {
     color: var(--color-gold);
 }
@@ -225,11 +236,13 @@
     letter-spacing: 5px;
 }
 .contact-form h1 {
+    color: var(--color-black);
     font-size: 3em;
 }
 .contact-form h2 {
     font-size: 1.2em;
     font-weight: bold;
+    color: var(--color-black);
 }
 .contact-form p {
     font-size: 1.2em;
@@ -237,6 +250,9 @@
 }
 .contact-form a {
     color: var(--color-gold);
+}
+.contact-form label {
+    color: var(--color-black);
 }
 .contact {
     overflow: hidden;
